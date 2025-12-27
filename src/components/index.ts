@@ -2,15 +2,11 @@ export { default as CheckboxButton } from './CheckboxButton.vue';
 export { default as CustomInput } from './CustomInput.vue';
 export { default as SmsButton } from './SmsButton.vue';
 export { default as SearchInput } from './SearchInput.vue';
-export { default as PopupSearch } from './PopupSearch.vue';
 export { default as DateRange } from './DateRange.vue';
-export { default as SwiperDetail } from './SwiperDetail.vue';
 export { default as CustomTag } from './CustomTag.vue';
 export { default as SingleSelect } from './SingleSelect.vue';
 export { default as ImageUploadCard } from './ImageUploadCard.vue';
 export { default as DatePicker } from './dynamic/widgets/DynamicDatePicker.vue';
-export { default as MasterBankSelect } from './dynamic/widgets/DynamicMasterBankSelect.vue';
-export { default as BranchBankSelect } from './dynamic/widgets/DynamicBranchBankSelect.vue';
 
 export interface IDateRange {
   /**

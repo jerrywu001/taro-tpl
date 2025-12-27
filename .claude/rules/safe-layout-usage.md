@@ -10,7 +10,7 @@ SafeLayout 是项目的全局布局组件，提供统一的页面容器、导航
 
 | 属性 | 类型 | 默认值 | 说明 |
 |-----|------|--------|------|
-| `bg-type` | `'graybg' \| 'whitebg' \| 'authscale' \| 'minebg' \| 'black' \| 'blacksacle' \| 'shortblack'` | `'graybg'` | 背景类型 |
+| `bg-type` | `'graybg'` \| `'whitebg'` \| `'mine-bg'` \| | 背景类型 |
 | `no-padding` | `boolean` | `false` | 是否不显示左右内边距 |
 | `empty-placeholder` | `string` | `''` | 空状态占位文本 |
 | `custom-nav` | `boolean` | `false` | 是否自定义导航栏 |
@@ -31,11 +31,7 @@ SafeLayout 是项目的全局布局组件，提供统一的页面容器、导航
 |----|------|---------|
 | `graybg` | 浅灰色背景 | **默认列表页** |
 | `whitebg` | 白色背景 | 详情页、表单页 |
-| `authscale` | 蓝色渐变背景 | 身份认证相关页面 |
-| `minebg` | 自定义"我的"页面背景 | 用户中心页面 |
-| `black` | 深色背景 | 深色主题页面 |
-| `blacksacle` | 黑色渐变背景 | 高级页面 |
-| `shortblack` | 短黑色区域 | 特殊用途 |
+| `mine-bg` | 自定义"我的"页面背景 | 用户中心页面 |
 
 ## 典型使用
 

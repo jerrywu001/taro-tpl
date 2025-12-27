@@ -54,8 +54,6 @@ async function doSearch(value: string) {
 
 限制函数执行频率。用于按钮点击和表单提交。
 
-**参考代码**：`src/pages/settlement/data/widgets/SettlementOrderBtns.vue`
-
 ### 使用示例
 
 ```typescript

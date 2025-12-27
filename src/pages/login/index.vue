@@ -2,11 +2,11 @@
   <safe-layout
     custom-nav
     no-padding
-    bg-type="authscale"
+    bg-type="whitebg"
   >
-    <template #nav-title>
+    <!-- <template #nav-title>
       <text>登录</text>
-    </template>
+    </template> -->
 
     <view class="common-form-content login-content">
       <view class="common-form-content-title">
@@ -23,10 +23,7 @@
         />
       </view>
 
-      <view
-        v-if="passwordMode"
-        class="common-form-content-form"
-      >
+      <view class="common-form-content-form">
         <custom-input
           v-model="form.password"
           placeholder="请输入密码"
@@ -34,25 +31,6 @@
           enable-toggle-password
           @toggle-password="togglePasswordType"
         />
-      </view>
-
-      <view
-        v-else
-        class="common-form-content-form"
-      >
-        <custom-input
-          v-model="form.code"
-          placeholder="请输入短信验证码"
-          type="number"
-          :maxlength="6"
-        >
-          <template #right>
-            <sms-button
-              ref="smsBtnRef"
-              @send-sms="sendSms"
-            />
-          </template>
-        </custom-input>
       </view>
     </view>
 
@@ -88,25 +66,6 @@
       登录
     </nut-button>
 
-    <!-- 暂未实现 -->
-    <view class="login-content-footer" style="display: none;">
-      <view
-        class="login-content-footer-item"
-        @click="toFindPasswordPage"
-      >
-        <text>忘记密码？</text>
-      </view>
-
-      <view
-        class="login-content-footer-item primary"
-        @click="handlePasswordMode"
-      >
-        <text class="sys-link">
-          使用{{ !passwordMode ? '账号密码' : '短信验证码' }}登录
-        </text>
-      </view>
-    </view>
-
     <!-- 登录成功，选择归属租户 -->
     <nut-popup v-model:visible="showChooseClient" position="bottom">
       <nut-picker
@@ -133,11 +92,11 @@ import Taro from '@tarojs/taro';
 import { useThrottle } from '@/hooks';
 import { ILoginClient } from '@/types/login';
 import SafeLayout from '@/layout/SafeLayout.vue';
-import { CustomInput, SmsButton } from '@/components';
-import { ESmsType, GlobalKeys } from '@/types/common';
+import { CustomInput } from '@/components';
+import { GlobalKeys } from '@/types/common';
 import { checkPhone, checkSmsCode } from '@/utils/validate';
 import { hideLoading, hideToast, showLoading, showToast } from '@/utils';
-import { doLogin, queryClients, sendNotLoginSmscode } from '@/api/login';
+import { doLogin, queryClients } from '@/api/login';
 import { removeToken, saveCurrentShop, saveStaffName, setToken } from '@/api/request/auth';
 
 interface IPickerItem {
@@ -158,13 +117,11 @@ const showErrorDialog = ref(false);
 const showChooseClient = ref(false);
 const passwordType = ref<'password' | 'text'>('password');
 const clients = ref<IPickerItem[]>([]);
-const smsBtnRef = ref<InstanceType<typeof SmsButton>>();
 
 const redirectLink = ref('');
 const errorMsg = ref('');
 
 const { run: resolveLogin } = useThrottle(handleLogin, 1000);
-const { run: sendSms } = useThrottle(handleSendSms, 1000);
 
 /**
  * 处理登录逻辑
@@ -282,26 +239,6 @@ async function doSwitchClient(client: ILoginClient, showMsg = true) {
   }
 }
 
-/**
- * 发送短信验证码
- */
-async function handleSendSms() {
-  if (!form.value.username) return showToast('请输入手机号');
-  if (checkPhone(form.value.username)) return showToast('手机号格式不正确');
-
-  try {
-    smsBtnRef.value?.showLoading();
-
-    await sendNotLoginSmscode(form.value.username, ESmsType.Login);
-
-    smsBtnRef.value?.countdown();
-    showToast('验证码发送成功');
-  } catch (error) {
-    smsBtnRef.value?.hideLoading();
-    showToast((error as Error).message);
-  }
-}
-
 function copyLink() {
   Taro.setClipboardData({
     data: redirectLink.value,
@@ -313,19 +250,8 @@ function handleProtocol(privacy = false) {
   Taro.navigateTo({ url: !privacy ? '/package-common/protocol/index' : '/package-common/privacy/index' });
 }
 
-function handlePasswordMode() {
-  passwordMode.value = !passwordMode.value;
-
-  form.value.code = '';
-  form.value.password = '';
-}
-
 function togglePasswordType() {
   passwordType.value = passwordType.value === 'password' ? 'text' : 'password';
-}
-
-function toFindPasswordPage() {
-  Taro.navigateTo({ url: '/package-common/forget-password/index' });
 }
 </script>
 

@@ -11,7 +11,6 @@
     <template v-for="item in renderItems" :key="item.key">
       <template v-if="item.visible">
         <nut-form-item
-          v-if="item.componentType !== 'BRAND_MODEL_SERIES_PICKER'"
           :class="['dynamic-item', `dynamic-item-${item.key}`]"
           :prop="item.key"
         >
@@ -37,18 +36,6 @@
             @update:model-value="handleValueChange(item.key, $event)"
           />
         </nut-form-item>
-
-        <!-- 特殊组件 -->
-        <dynamic-brand-model-series-picker
-          v-else
-          ref="brandModelSeriesPickerRef"
-          v-model="formValues[item.key]"
-          :config="item"
-          :readonly="readonly"
-          :extra-params="extraParams"
-          @validate="handleValidate(item.key)"
-          @update:model-value="handleValueChange(item.key, $event)"
-        />
       </template>
     </template>
   </nut-form>
@@ -59,7 +46,6 @@ import { showToast } from '@/utils';
 import { IconFont } from '@nutui/icons-vue-taro';
 import { componentImportMap } from './component-map';
 import { ref, markRaw, watch, computed, PropType } from 'vue';
-import DynamicBrandModelSeriesPicker from './widgets/DynamicBrandModelSeriesPicker.vue';
 import { ArrayComponentTypes, DynamicTipPrefix, IDynamicComponent, IDynamicError, IDynamicValues, resolveBynamicDefaultConfigs } from '.';
 import './dynamic.scss';
 
@@ -91,7 +77,6 @@ const emit = defineEmits(['update:values', 'change']);
 const formRef = ref<any>(null);
 const formValues = ref<Record<string, any>>({});
 const loadedComponents = ref<Record<string, any>>({});
-const brandModelSeriesPickerRef = ref<InstanceType<typeof DynamicBrandModelSeriesPicker>>();
 const customOptions = ref<Record<string, Array<{
   label: string;
   value: string | number;
@@ -112,7 +97,6 @@ const renderItems = computed(() => {
     return item;
   });
 });
-const hasBrandModelSeries = computed(() => renderItems.value.findIndex((item) => item.componentType === 'BRAND_MODEL_SERIES_PICKER') !== -1);
 
 const rules = computed(() => {
   const rs: Record<string, any> = {};
@@ -200,27 +184,12 @@ const handleAddOption = (key: string, option: any) => {
   }
 };
 
-const validateBrandModelSeries = () => {
-  if (hasBrandModelSeries.value && brandModelSeriesPickerRef.value) {
-    const pickerRef = brandModelSeriesPickerRef.value?.[0];
-    const errors = pickerRef?.validate();
-
-    if (errors && errors?.length > 0) {
-      return errors;
-    }
-  }
-
-  return [];
-};
-
 const validateForm = (): Promise<Array<IDynamicError>> => {
-  const brandModelSeriesErrors = validateBrandModelSeries();
-
   return new Promise((resolve) => {
     formRef.value?.validate()
       .then(({ valid, errors }) => {
         if (valid) {
-          resolve(brandModelSeriesErrors?.length > 0 ? brandModelSeriesErrors : []);
+          resolve([]);
         } else {
           console.warn('error:', errors);
           resolve(errors);
@@ -228,7 +197,7 @@ const validateForm = (): Promise<Array<IDynamicError>> => {
       })
       .catch((error) => {
         console.error('验证表单失败:', error);
-        resolve(brandModelSeriesErrors?.length > 0 ? brandModelSeriesErrors : []);
+        resolve([]);
       });
   });
 };
@@ -274,10 +243,6 @@ defineExpose({
   validateForm,
   resetForm: () => {
     formRef.value?.resetFields();
-
-    if (hasBrandModelSeries.value) {
-      brandModelSeriesPickerRef.value?.resetFields();
-    }
   },
   updateFormValues: (values: Record<string, any>) => {
     formValues.value = {

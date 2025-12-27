@@ -32,18 +32,8 @@ export type ComponentType =
   | 'SELECT_MULTI_CUSTOM'
   | 'IMAGE_UPLOAD'
   | 'IMAGE_UPLOAD_FREE'
-  | 'BRAND_MODEL_SERIES_PICKER'
-  | 'ACCESSORY_SELECT_SINGLE'
-  | 'CONDITION_SELECT_SINGLE'
-  | 'MASTER_BANK_SELECT'
-  | 'BRANCH_BANK_SELECT'
   | 'DATE_PICKER'
   | 'AREA_PICKER';
-
-export const asyncOptionsComponentTypes = [
-  'ACCESSORY_SELECT_SINGLE',
-  'CONDITION_SELECT_SINGLE',
-] as ComponentType[];
 
 export interface IDynamicComponent {
   /**
@@ -66,11 +56,6 @@ export interface IDynamicComponent {
    * SELECT_MULTI_CUSTOM 自定义下拉多选
    * IMAGE_UPLOAD 图片上传
    * IMAGE_UPLOAD_FREE 图片上传（无限制）
-   * BRAND_MODEL_SERIES_PICKER 品牌-型号-系列选择器
-   * ACCESSORY_SELECT_SINGLE 配件下拉单选
-   * CONDITION_SELECT_SINGLE 成色下拉单选
-   * MASTER_BANK_SELECT 总行下拉单选
-   * BRANCH_BANK_SELECT 支行下拉单选
    * DATE_PICKER 日期选择器
    * AREA_PICKER 区域选择器
    * ```

@@ -56,33 +56,7 @@
   <ImageList :images="imageList" @delete="handleDelete" />
   ```
 
-### 5. SwiperDetail（轮播图详情）
-- **位置**：`src/components/SwiperDetail.vue`
-- **功能**：轮播图组件
-- **特性**：
-  - 支持图片轮播
-  - 支持指示器
-  - 支持自动播放
-- **使用场景**：商品详情页、图片展示
-- **示例**：
-  ```vue
-  <SwiperDetail :images="images" :autoplay="true" />
-  ```
-
-### 6. PopupSearch（弹出搜索）
-- **位置**：`src/components/PopupSearch.vue`
-- **功能**：弹出式搜索选择器
-- **特性**：
-  - 支持搜索
-  - 支持单选/多选
-  - 支持分页加载
-- **使用场景**：选择商品、选择客户等
-- **示例**：
-  ```vue
-  <PopupSearch v-model="visible" :options="list" @confirm="handleConfirm" />
-  ```
-
-### 7. CheckboxButton（复选框按钮）
+### 6. CheckboxButton（复选框按钮）
 - **位置**：`src/components/CheckboxButton.vue`
 - **功能**：按钮样式的复选框
 - **特性**：
@@ -95,7 +69,7 @@
   <CheckboxButton v-model="selected" :options="options" />
   ```
 
-### 8. SmsButton（短信验证码按钮）
+### 7. SmsButton（短信验证码按钮）
 - **位置**：`src/components/SmsButton.vue`
 - **功能**：发送短信验证码按钮
 - **特性**：
@@ -108,7 +82,7 @@
   <SmsButton :phone="phone" @send="handleSendSms" />
   ```
 
-### 9. MutipleSelect（多选选择器）
+### 8. MutipleSelect（多选选择器）
 - **位置**：`src/components/MutipleSelect.vue`
 - **功能**：多选下拉选择器
 - **特性**：
@@ -121,7 +95,7 @@
   <MutipleSelect v-model="selected" :options="options" />
   ```
 
-### 10. SingleSelect（单选选择器）
+### 9. SingleSelect（单选选择器）
 - **位置**：`src/components/SingleSelect.vue`
 - **功能**：单选下拉选择器
 - **特性**：
@@ -133,20 +107,7 @@
   <SingleSelect v-model="selected" :options="options" />
   ```
 
-### 11. CustomFields（自定义字段）
-- **位置**：`src/components/CustomFields.vue`
-- **功能**：自定义字段展示
-- **特性**：
-  - 动态字段渲染
-  - 支持多种字段类型
-  - 支持编辑模式
-- **使用场景**：详情页面、表单页面
-- **示例**：
-  ```vue
-  <CustomFields :fields="fields" :data="formData" />
-  ```
-
-### 12. CustomTag（自定义标签）
+### 10. CustomTag（自定义标签）
 - **位置**：`src/components/CustomTag.vue`
 - **功能**：可自定义样式的标签组件
 - **特性**：
@@ -161,21 +122,7 @@
 
 ## 动态表单组件（扩展）
 
-### 13. MasterBankSelect（总行下拉选择）
-- **位置**：`src/components/dynamic/widgets/DynamicMasterBankSelect.vue`
-- **功能**：总行银行下拉选择器
-- **特性**：
-  - 自动调用 `queryMasterBanks()` 接口获取总行列表
-  - 支持搜索功能（默认启用）
-  - 支持清空选择
-  - 支持只读模式
-  - 使用 NutUI Picker 弹窗交互
-- **数据映射**：
-  - `label` ← `bankName`（银行名称）
-  - `value` ← `bankCode`（银行代码）
-- **使用场景**：会员管理、收款账户、付款信息等需要选择开户银行的场景
-
-### 14. DatePicker（日期选择器）
+### 11. DatePicker（日期选择器）
 - **位置**：`src/components/dynamic/widgets/DynamicDatePicker.vue`
 - **功能**：日期选择器
 - **特性**：
@@ -184,21 +131,6 @@
   - 支持只读模式
   - 使用 NutUI DatePicker 弹窗交互
 - **使用场景**：表单中需要选择日期的场景
-
-### 15. BranchBankSelect（支行下拉选择）
-- **位置**：`src/components/dynamic/widgets/DynamicBranchBankSelect.vue`
-- **功能**：支行银行下拉选择器（依赖总行）
-- **特性**：
-  - 自动调用 `queryBranchBanks()` 接口获取支行列表
-  - **依赖总行代码**：必须传入 `bankCode` prop
-  - 支持搜索功能（默认启用，接口搜索）
-  - 支持清空选择
-  - 支持只读模式
-  - 使用 NutUI Picker 弹窗交互
-- **数据映射**：
-  - `label` ← `cnapsName`（支行名称）
-  - `value` ← `cnapsCode`（大额行号）
-- **使用场景**：会员管理、收款账户等需要选择开户支行的场景（总行与支行级联）
 
 ## 动态表单容器
 
@@ -214,8 +146,6 @@
 6. **DynamicSelectSingle** - 单选下拉框
 7. **DynamicSelectMulti** - 多选下拉框
 8. **DynamicImageUpload** - 带预览的图片上传
-9. **DynamicBrandModelSeriesPicker** - 品牌/型号/系列级联选择器
-10. **DynamicAccessoryOrConditionSelect** - 配件和成色选择器
 
 ### 使用方式
 
@@ -257,14 +187,10 @@ const formConfig = {
 | DateRange | `src/components/DateRange.vue` | 日期范围 | ✅ |
 | CustomInput | `src/components/CustomInput.vue` | 表单输入 | ✅ |
 | ImageList | `src/components/ImageList.vue` | 图片展示 | ❌ |
-| SwiperDetail | `src/components/SwiperDetail.vue` | 轮播图 | ❌ |
-| PopupSearch | `src/components/PopupSearch.vue` | 弹出搜索 | ✅ |
 | CheckboxButton | `src/components/CheckboxButton.vue` | 选项按钮 | ✅ |
 | SmsButton | `src/components/SmsButton.vue` | 短信验证 | ❌ |
 | SingleSelect | `src/components/SingleSelect.vue` | 单选下拉 | ✅ |
 | MutipleSelect | `src/components/MutipleSelect.vue` | 多选下拉 | ✅ |
 | CustomFields | `src/components/CustomFields.vue` | 自定义字段 | ❌ |
 | CustomTag | `src/components/CustomTag.vue` | 自定义标签 | ❌ |
-| MasterBankSelect | `src/components/dynamic/widgets/DynamicMasterBankSelect.vue` | 总行下拉（动态） | ✅ |
-| BranchBankSelect | `src/components/dynamic/widgets/DynamicBranchBankSelect.vue` | 支行下拉（动态） | ✅ |
 | DatePicker | `src/components/dynamic/widgets/DynamicDatePicker.vue` | 日期选择（动态） | ✅ |

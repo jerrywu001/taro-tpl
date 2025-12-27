@@ -2,6 +2,206 @@
   background-color: #fff;
 }
 
+// 顶部橙色区域
+.index-header {
+  position: relative;
+  height: 260px;
+  overflow: hidden;
+
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #ff9a56 0%, #ff7d3b 100%);
+  }
+
+  &__circle {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+
+    &--1 {
+      width: 200px;
+      height: 200px;
+      top: -60px;
+      right: -40px;
+    }
+
+    &--2 {
+      width: 150px;
+      height: 150px;
+      top: 80px;
+      right: 60px;
+    }
+
+    &--3 {
+      width: 100px;
+      height: 100px;
+      top: 40px;
+      left: -30px;
+    }
+  }
+
+  &__content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  &__subtitle {
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.9);
+  }
+}
+
+// 三个特点卡片
+.index-features {
+  display: flex;
+  justify-content: space-around;
+  margin: -60px 24px 0;
+  padding: 40px 20px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  position: relative;
+  z-index: 2;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  }
+
+  &__icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    font-size: 36px;
+
+    &--time {
+      background: rgba(255, 157, 86, 0.15);
+      color: #ff9d56;
+    }
+
+    &--money {
+      background: rgba(255, 157, 86, 0.15);
+      color: #ff9d56;
+    }
+
+    &--safe {
+      background: rgba(255, 157, 86, 0.15);
+      color: #ff9d56;
+    }
+  }
+
+  &__title {
+    font-size: 28px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+  }
+
+  &__desc {
+    font-size: 24px;
+    color: #999;
+  }
+}
+
+// 入驻流程
+.index-process {
+  padding: 40px 32px;
+
+  &__title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 32px;
+    display: block;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &__step {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(255, 157, 86, 0.15);
+    color: #ff9d56;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin-right: 24px;
+    flex-shrink: 0;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4px;
+  }
+
+  &__name {
+    font-size: 30px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+  }
+
+  &__desc {
+    font-size: 26px;
+    color: #999;
+    line-height: 1.5;
+  }
+}
+
+// 底部按钮
+.index-footer {
+  padding-bottom: 20px;
+  background: #fff;
+
+  &__btn {
+    height: 96px;
+    border-radius: 48px;
+    font-size: 32px;
+    font-weight: 500;
+    background: linear-gradient(90deg, #ff9a56 0%, #ff7d3b 100%);
+    border: none;
+
+    &::after {
+      display: none;
+    }
+  }
+}
+
+// 隐私弹框样式
 .privacy-dialog {
   .nut-dialog {
     width: 100%;
@@ -57,11 +257,11 @@
       font-size: 28px;
 
       &:last-child {
-        color: #37F;
+        color: #37f;
       }
 
       &:active {
-        opacity: .7;
+        opacity: 0.7;
       }
     }
   }

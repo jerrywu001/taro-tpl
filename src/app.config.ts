@@ -3,6 +3,7 @@ export default defineAppConfig({
     'pages/index/index',
     'pages/mine/index',
     'pages/login/index',
+    'pages/messages/index',
   ],
   subPackages: [
     {
@@ -11,8 +12,6 @@ export default defineAppConfig({
       pages: [
         'protocol/index',
         'privacy/index',
-        'forget-password/index',
-        'update-password/index',
       ],
     },
   ],
@@ -28,6 +27,10 @@ export default defineAppConfig({
       {
         pagePath: 'pages/index/index',
         text: '首页',
+      },
+      {
+        pagePath: 'pages/messages/index',
+        text: '消息',
       },
       {
         pagePath: 'pages/mine/index',

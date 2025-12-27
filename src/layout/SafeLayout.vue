@@ -5,13 +5,10 @@
       customClass,
       {
         'safe-layout-custom-nav': customNav,
-        authscale: bgType === 'authscale',
-        minebg: bgType === 'minebg',
+        'index-bg': bgType === 'index-bg',
+        'mine-bg': bgType === 'mine-bg',
         graybg: bgType === 'graybg',
         whitebg: bgType === 'whitebg',
-        black: bgType === 'black',
-        blacksacle: bgType === 'blacksacle',
-        shortblack:bgType === 'shortblack',
       },
     ]"
     :style="{
@@ -121,7 +118,6 @@ import { computed, PropType, ref, useSlots, nextTick } from 'vue';
 
 defineOptions({ inheritAttrs: false });
 
-const subNavRef = ref();
 const subNavHeight = ref(0);
 
 const slots = useSlots();
@@ -206,7 +202,7 @@ const props = defineProps({
     default: '',
   },
   bgType: {
-    type: String as PropType<'authscale' | 'minebg' | 'graybg' | 'whitebg' | 'blacksacle' | 'black' | 'shortblack'>,
+    type: String as PropType<'mine-bg' | 'graybg' | 'whitebg' | 'index-bg'>,
     default: 'graybg',
   },
   emptyPlaceholder: {

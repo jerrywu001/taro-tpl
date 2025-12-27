@@ -3,13 +3,9 @@
     show-footer-tabbar
     :show-back-button="false"
     custom-nav
-    bg-type="authscale"
+    bg-type="whitebg"
   >
     <view class="mine-box">
-      <view class="password-ico" @click="toEditPassPage">
-        <text>密码管理11</text>
-        <IconFont name="rect-right" />
-      </view>
       <view class="customer-ico" @click="toHelpCenter">
         <text>帮助中心</text>
         <IconFont name="rect-right" />
@@ -61,10 +57,6 @@ async function handleLogout() {
 function toHelpCenter() {
   Taro.navigateTo({ url: '/package-common/help-center/index' });
 }
-
-function toEditPassPage() {
-  Taro.navigateTo({ url: '/package-common/update-password/index' });
-}
 </script>
 
 <style lang="scss">
@@ -91,10 +83,6 @@ function toEditPassPage() {
     .nut-icon {
       color: #666;
       font-size: 26px;
-    }
-
-    &.password-ico {
-      background-image: url(https://lg5-prod-1314932667.cos.ap-nanjing.myqcloud.com/applet/erso-applet/common/pass-ico.png);
     }
 
     &.customer-ico {

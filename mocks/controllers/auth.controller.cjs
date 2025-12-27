@@ -8,14 +8,4 @@ router.post('/logout', (req, res) => {
   });
 });
 
-/**
- * 切换店铺
- */
-router.post('/change-shop', (req, res) => {
-  res.json({
-    code: 0,
-    message: null,
-  });
-});
-
 module.exports = router;
