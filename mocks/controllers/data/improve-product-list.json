@@ -1,0 +1,847 @@
+[
+  {
+    "receiveSubId": "2800000000001",
+    "receiveNo": "R20250501001",
+    "receiveSubNo": "RS20250501001-01",
+    "receivePerson": "张三",
+    "shopName": "吉嘉名品汇嘉定店",
+    "createTime": "2025-05-01 10:12:33",
+    "productName": "iPhone 15 Pro 256G 银色",
+    "fileList": [
+      {
+        "id": 500001,
+        "fileUrl": "https://picx.zhimg.com/v2-b2c5c1712c8b220886d50757def3e694_1440w.jpg"
+      },
+      {
+        "id": 500002,
+        "fileUrl": "https://picsum.photos/seed/hal7g4ayee/500/500"
+      },
+      {
+        "id": 500003,
+        "fileUrl": "https://picsum.photos/seed/pgzl7znrx9/500/500"
+      },
+      {
+        "id": 500004,
+        "fileUrl": "https://picsum.photos/seed/ke5nt964i6/500/500"
+      },
+      {
+        "id": 500005,
+        "fileUrl": "https://picsum.photos/seed/kfwefecfx7/500/500"
+      },
+      {
+        "id": 500006,
+        "fileUrl": "https://picsum.photos/seed/0gahez5rb5/500/500"
+      },
+      {
+        "id": 500007,
+        "fileUrl": "https://picsum.photos/seed/muswr3mqsq/500/500"
+      },
+      {
+        "id": 500008,
+        "fileUrl": "https://picsum.photos/seed/5gw7b8f56y/500/500"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/o9ofigosna/100/100",
+    "receiveSubId": "2800000000002",
+    "receiveNo": "R20250501002",
+    "receiveSubNo": "RS20250501002-01",
+    "receivePerson": "李四",
+    "shopName": "吉嘉名品汇浦东新区店",
+    "createTime": "2025-05-01 11:22:10",
+    "productName": "MacBook Pro 14寸 M3 Pro",
+    "fileList": [
+      {
+        "id": 500003,
+        "fileUrl": "https://pic2.zhimg.com/80/v2-ab88eb2e7444829df4df82398ab52f29_720w.webp"
+      },
+      {
+        "id": 500002,
+        "fileUrl": "https://picsum.photos/seed/wkkb987ds9/500/500"
+      },
+      {
+        "id": 500003,
+        "fileUrl": "https://picsum.photos/seed/1ys6py9y7i/500/500"
+      },
+      {
+        "id": 500004,
+        "fileUrl": "https://picsum.photos/seed/qg1a3229gh/500/500"
+      },
+      {
+        "id": 500005,
+        "fileUrl": "https://picsum.photos/seed/epj9lu05c1/500/500"
+      },
+      {
+        "id": 500006,
+        "fileUrl": "https://picsum.photos/seed/hp2jyg6kjk/500/500"
+      },
+      {
+        "id": 500007,
+        "fileUrl": "https://picsum.photos/seed/wco40r3rcj/500/500"
+      },
+      {
+        "id": 500008,
+        "fileUrl": "https://picsum.photos/seed/o2yvwt096d/500/500"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/8nxhg12jnu/100/100",
+    "receiveSubId": "2800000000003",
+    "receiveNo": "R20250501003",
+    "receiveSubNo": "RS20250501003-01",
+    "receivePerson": "王五",
+    "shopName": "宁伙伴（南京）科技服务有限公司",
+    "createTime": "2025-05-01 14:02:45",
+    "productName": "iPad Pro 11寸 M4",
+    "fileList": [
+      {
+        "id": 500005,
+        "fileUrl": "https://picx.zhimg.com/v2-b2c5c1712c8b220886d50757def3e694_1440w.jpg"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/bhz6h78d27/100/100",
+    "receiveSubId": "2800000000004",
+    "receiveNo": "R20250502001",
+    "receiveSubNo": "RS20250502001-01",
+    "receivePerson": "赵六",
+    "shopName": "上海吉舰嘉科技服务有限公司",
+    "createTime": "2025-05-02 09:15:26",
+    "productName": "AirPods Pro 2"
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/nl5wlu0g8a/100/100",
+    "receiveSubId": "2800000000005",
+    "receiveNo": "R20250502002",
+    "receiveSubNo": "RS20250502002-01",
+    "receivePerson": "陈七",
+    "shopName": "吉嘉名品汇虹口店",
+    "createTime": "2025-05-02 10:40:11",
+    "productName": "Apple Watch S9 黑色",
+    "fileList": [
+      {
+        "id": 500002,
+        "fileUrl": "https://picsum.photos/seed/n21nrodsn8/500/500"
+      },
+      {
+        "id": 500003,
+        "fileUrl": "https://picsum.photos/seed/8k6qqakriu/500/500"
+      },
+      {
+        "id": 500004,
+        "fileUrl": "https://picsum.photos/seed/kpj9s2l9mk/500/500"
+      },
+      {
+        "id": 500005,
+        "fileUrl": "https://picsum.photos/seed/0zj92ntlxk/500/500"
+      },
+      {
+        "id": 500006,
+        "fileUrl": "https://picsum.photos/seed/d41fcn2ob0/500/500"
+      },
+      {
+        "id": 500007,
+        "fileUrl": "https://picsum.photos/seed/b68cyyb803/500/500"
+      },
+      {
+        "id": 500008,
+        "fileUrl": "https://picsum.photos/seed/o7p3xm30d0/500/500"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/0zcputr9ty/100/100",
+    "receiveSubId": "2800000000006",
+    "receiveNo": "R20250502003",
+    "receiveSubNo": "RS20250502003-01",
+    "receivePerson": "周八",
+    "shopName": "宁伙伴科技公司",
+    "createTime": "2025-05-02 16:03:59",
+    "productName": "华为 Mate 60 Pro 12+256",
+    "fileList": [
+      {
+        "id": 500011,
+        "fileUrl": "https://pic2.zhimg.com/80/v2-ab88eb2e7444829df4df82398ab52f29_720w.webp"
+      },
+      {
+        "id": 500002,
+        "fileUrl": "https://picsum.photos/seed/ex51ax146k/500/500"
+      },
+      {
+        "id": 500003,
+        "fileUrl": "https://picsum.photos/seed/by0c787a0d/500/500"
+      },
+      {
+        "id": 500004,
+        "fileUrl": "https://picsum.photos/seed/jqv4fhp3v2/500/500"
+      },
+      {
+        "id": 500005,
+        "fileUrl": "https://picsum.photos/seed/0nqwa7vyut/500/500"
+      },
+      {
+        "id": 500006,
+        "fileUrl": "https://picsum.photos/seed/3i3mfr2cs4/500/500"
+      },
+      {
+        "id": 500007,
+        "fileUrl": "https://picsum.photos/seed/z07jgnkqat/500/500"
+      },
+      {
+        "id": 500008,
+        "fileUrl": "https://picsum.photos/seed/60tfoqc0pl/500/500"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/803bhutt9o/100/100",
+    "receiveSubId": "2800000000007",
+    "receiveNo": "R20250503001",
+    "receiveSubNo": "RS20250503001-01",
+    "receivePerson": "吴九",
+    "shopName": "吉嘉名品汇嘉定店",
+    "createTime": "2025-05-03 12:22:16",
+    "productName": "小米 14 Pro 12+512",
+    "fileList": [
+      {
+        "id": 500005,
+        "fileUrl": "https://picsum.photos/seed/688bew3u15/500/500"
+      },
+      {
+        "id": 500006,
+        "fileUrl": "https://picsum.photos/seed/2yk1cw4rit/500/500"
+      },
+      {
+        "id": 500007,
+        "fileUrl": "https://picsum.photos/seed/k6ojjy76pi/500/500"
+      },
+      {
+        "id": 500008,
+        "fileUrl": "https://picsum.photos/seed/4lsgopkd0w/500/500"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/khupsfoqyb/100/100",
+    "receiveSubId": "2800000000008",
+    "receiveNo": "R20250503002",
+    "receiveSubNo": "RS20250503002-01",
+    "receivePerson": "郑十",
+    "shopName": "吉嘉名品汇浦东新区店",
+    "createTime": "2025-05-03 18:02:41",
+    "productName": "荣耀 Magic6 12+256",
+    "fileList": [
+      {
+        "id": 500005,
+        "fileUrl": "https://picsum.photos/seed/ifbo1e8faw/500/500"
+      },
+      {
+        "id": 500006,
+        "fileUrl": "https://picsum.photos/seed/lct23akdqw/500/500"
+      },
+      {
+        "id": 500007,
+        "fileUrl": "https://picsum.photos/seed/vytikv13hk/500/500"
+      },
+      {
+        "id": 500008,
+        "fileUrl": "https://picsum.photos/seed/kgy7stbyeo/500/500"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/ot144cizgh/100/100",
+    "receiveSubId": "2800000000009",
+    "receiveNo": "R20250504001",
+    "receiveSubNo": "RS20250504001-01",
+    "receivePerson": "刘德华",
+    "shopName": "宁伙伴（南京）科技服务有限公司",
+    "createTime": "2025-05-04 09:12:05",
+    "productName": "三星 Galaxy S24 Ultra 12+512",
+    "fileList": [
+      {
+        "id": 500005,
+        "fileUrl": "https://picsum.photos/seed/nmx7iwqmb9/500/500"
+      },
+      {
+        "id": 500006,
+        "fileUrl": "https://picsum.photos/seed/ksjyw5216p/500/500"
+      },
+      {
+        "id": 500007,
+        "fileUrl": "https://picsum.photos/seed/6ucubcwb7j/500/500"
+      },
+      {
+        "id": 500008,
+        "fileUrl": "https://picsum.photos/seed/v17kyi1pup/500/500"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/3g25j6igtl/100/100",
+    "receiveSubId": "2800000000010",
+    "receiveNo": "R20250504002",
+    "receiveSubNo": "RS20250504002-01",
+    "receivePerson": "彭于晏",
+    "shopName": "宁伙伴科技公司",
+    "createTime": "2025-05-04 14:48:37",
+    "productName": "索尼 PlayStation 5 光驱版",
+    "fileList": [
+      {
+        "id": 500005,
+        "fileUrl": "https://picsum.photos/seed/1hmwd2anrb/500/500"
+      },
+      {
+        "id": 500006,
+        "fileUrl": "https://picsum.photos/seed/1hborjx5sc/500/500"
+      },
+      {
+        "id": 500007,
+        "fileUrl": "https://picsum.photos/seed/nsvwgtdu8p/500/500"
+      },
+      {
+        "id": 500008,
+        "fileUrl": "https://picsum.photos/seed/9wo5qhj5dd/500/500"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/g82f2ifu1v/100/100",
+    "receiveSubId": "2800000000011",
+    "receiveNo": "R20250505001",
+    "receiveSubNo": "RS20250505001-01",
+    "receivePerson": "赵云",
+    "shopName": "吉嘉名品汇嘉定店",
+    "createTime": "2025-05-05 08:05:12",
+    "productName": "Nintendo Switch OLED",
+    "fileList": [
+      {
+        "id": 500005,
+        "fileUrl": "https://picsum.photos/seed/4tcjemeslw/500/500"
+      },
+      {
+        "id": 500006,
+        "fileUrl": "https://picsum.photos/seed/loelhzjt9p/500/500"
+      },
+      {
+        "id": 500007,
+        "fileUrl": "https://picsum.photos/seed/bxtwoikeze/500/500"
+      },
+      {
+        "id": 500008,
+        "fileUrl": "https://picsum.photos/seed/33aj1tn3ax/500/500"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/xrxki1x0er/100/100",
+    "receiveSubId": "2800000000012",
+    "receiveNo": "R20250505002",
+    "receiveSubNo": "RS20250505002-01",
+    "receivePerson": "关羽",
+    "shopName": "吉嘉名品汇浦东新区店",
+    "createTime": "2025-05-05 10:44:31",
+    "productName": "DJI Osmo Mobile 6 稳定器",
+    "fileList": [
+      {
+        "id": 500005,
+        "fileUrl": "https://picsum.photos/seed/d189mq21k4/500/500"
+      },
+      {
+        "id": 500006,
+        "fileUrl": "https://picsum.photos/seed/czo0e1shnq/500/500"
+      },
+      {
+        "id": 500007,
+        "fileUrl": "https://picsum.photos/seed/k9rc81e28h/500/500"
+      },
+      {
+        "id": 500008,
+        "fileUrl": "https://picsum.photos/seed/0brlre2ix4/500/500"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/qewjzvaapl/100/100",
+    "receiveSubId": "2800000000013",
+    "receiveNo": "R20250506001",
+    "receiveSubNo": "RS20250506001-01",
+    "receivePerson": "张飞",
+    "shopName": "宁伙伴（南京）科技服务有限公司",
+    "createTime": "2025-05-06 11:17:52",
+    "productName": "佳能 EOS R8 套机",
+    "fileList": [
+      {
+        "id": 500005,
+        "fileUrl": "https://picsum.photos/seed/bb8p100qgn/500/500"
+      },
+      {
+        "id": 500006,
+        "fileUrl": "https://picsum.photos/seed/beem68ce0z/500/500"
+      },
+      {
+        "id": 500007,
+        "fileUrl": "https://picsum.photos/seed/h63vsvrlqn/500/500"
+      },
+      {
+        "id": 500008,
+        "fileUrl": "https://picsum.photos/seed/cqvyghk27j/500/500"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/a03rutw78s/100/100",
+    "receiveSubId": "2800000000014",
+    "receiveNo": "R20250506002",
+    "receiveSubNo": "RS20250506002-01",
+    "receivePerson": "马云",
+    "shopName": "宁伙伴科技公司",
+    "createTime": "2025-05-06 15:08:46",
+    "productName": "尼康 Z8 机身"
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/qax7h1p373/100/100",
+    "receiveSubId": "2800000000015",
+    "receiveNo": "R20250507001",
+    "receiveSubNo": "RS20250507001-01",
+    "receivePerson": "任正非",
+    "shopName": "吉嘉名品汇嘉定店",
+    "createTime": "2025-05-07 09:55:31",
+    "productName": "路易威登 Neverfull M41177 手袋"
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/lqk5dbirux/100/100",
+    "receiveSubId": "2800000000016",
+    "receiveNo": "R20250507002",
+    "receiveSubNo": "RS20250507002-01",
+    "receivePerson": "雷军",
+    "shopName": "吉嘉名品汇浦东新区店",
+    "createTime": "2025-05-07 13:26:44",
+    "productName": "古驰 GG Marmont 手包"
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/qcuna7zjsf/100/100",
+    "receiveSubId": "2800000000017",
+    "receiveNo": "R20250508001",
+    "receiveSubNo": "RS20250508001-01",
+    "receivePerson": "俞敏洪",
+    "shopName": "上海吉舰嘉科技服务有限公司",
+    "createTime": "2025-05-08 08:41:29",
+    "productName": "爱彼 CODE 11.59 腕表"
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/sgo6rxswml/100/100",
+    "receiveSubId": "2800000000018",
+    "receiveNo": "R20250508002",
+    "receiveSubNo": "RS20250508002-01",
+    "receivePerson": "王健林",
+    "shopName": "吉嘉名品汇虹口店",
+    "createTime": "2025-05-08 12:33:02",
+    "productName": "劳力士 Submariner 绿水鬼"
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/p84ekvukrv/100/100",
+    "receiveSubId": "2800000000019",
+    "receiveNo": "R20250509001",
+    "receiveSubNo": "RS20250509001-01",
+    "receivePerson": "王思聪",
+    "shopName": "宁伙伴科技公司",
+    "createTime": "2025-05-09 10:20:17",
+    "productName": "欧米茄 海马300",
+    "fileList": [
+      {
+        "id": 500037,
+        "fileUrl": "https://pic2.zhimg.com/80/v2-ab88eb2e7444829df4df82398ab52f29_720w.webp"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/eu9r66vr7/100/100",
+    "receiveSubId": "2800000000020",
+    "receiveNo": "R20250509002",
+    "receiveSubNo": "RS20250509002-01",
+    "receivePerson": "李嘉诚",
+    "shopName": "吉嘉名品汇嘉定店",
+    "createTime": "2025-05-09 17:45:04",
+    "productName": "香奈儿 Classic Flap 中号"
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/8a2nvm6ph4/100/100",
+    "receiveSubId": "2800000000021",
+    "receiveNo": "R20250510001",
+    "receiveSubNo": "RS20250510001-01",
+    "receivePerson": "谷爱凌",
+    "shopName": "吉嘉名品汇浦东新区店",
+    "createTime": "2025-05-10 09:18:55",
+    "productName": "普拉达 Re-Nylon 背包",
+    "fileList": [
+      {
+        "id": 500042,
+        "fileUrl": "https://picx.zhimg.com/v2-b2c5c1712c8b220886d50757def3e694_1440w.jpg"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/hl4np6kxb5/100/100",
+    "receiveSubId": "2800000000022",
+    "receiveNo": "R20250510002",
+    "receiveSubNo": "RS20250510002-01",
+    "receivePerson": "黄晓明",
+    "shopName": "上海吉舰嘉科技服务有限公司",
+    "createTime": "2025-05-10 11:09:41",
+    "productName": "Coach Tabby 肩包",
+    "fileList": [
+      {
+        "id": 500043,
+        "fileUrl": "https://pic2.zhimg.com/80/v2-ab88eb2e7444829df4df82398ab52f29_720w.webp"
+      },
+      {
+        "id": 500044,
+        "fileUrl": "https://lg5-prod-1314932667.cos.ap-nanjing.myqcloud.com/applet/erso-applet/list-shangpinshuliang"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/vmdebkowf2/100/100",
+    "receiveSubId": "2800000000023",
+    "receiveNo": "R20250511001",
+    "receiveSubNo": "RS20250511001-01",
+    "receivePerson": "杨幂",
+    "shopName": "吉嘉名品汇虹口店",
+    "createTime": "2025-05-11 13:23:19",
+    "productName": "Burberry 格纹围巾",
+    "fileList": [
+      {
+        "id": 500045,
+        "fileUrl": "https://picx.zhimg.com/v2-b2c5c1712c8b220886d50757def3e694_1440w.jpg"
+      },
+      {
+        "id": 500046,
+        "fileUrl": "https://lg5-prod-1314932667.cos.ap-nanjing.myqcloud.com/applet/erso-applet/list-expand"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/2a6tg6hxfc/100/100",
+    "receiveSubId": "2800000000024",
+    "receiveNo": "R20250511002",
+    "receiveSubNo": "RS20250511002-01",
+    "receivePerson": "迪丽热巴",
+    "shopName": "宁伙伴科技公司",
+    "createTime": "2025-05-11 15:47:00",
+    "productName": "Dior Saddle 马鞍包",
+    "fileList": [
+      {
+        "id": 500047,
+        "fileUrl": "https://pic2.zhimg.com/80/v2-ab88eb2e7444829df4df82398ab52f29_720w.webp"
+      },
+      {
+        "id": 500048,
+        "fileUrl": "https://lg5-prod-1314932667.cos.ap-nanjing.myqcloud.com/applet/erso-applet/list-qiwangzongjine"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/dv4v449wns/100/100",
+    "receiveSubId": "2800000000025",
+    "receiveNo": "R20250512001",
+    "receiveSubNo": "RS20250512001-01",
+    "receivePerson": "王俊凯",
+    "shopName": "吉嘉名品汇嘉定店",
+    "createTime": "2025-05-12 10:05:28",
+    "productName": "万宝龙 大班系列钱包",
+    "fileList": [
+      {
+        "id": 500049,
+        "fileUrl": "https://picx.zhimg.com/v2-b2c5c1712c8b220886d50757def3e694_1440w.jpg"
+      },
+      {
+        "id": 500050,
+        "fileUrl": "https://pic2.zhimg.com/80/v2-ab88eb2e7444829df4df82398ab52f29_720w.webp"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/wj4y79wh5k/100/100",
+    "receiveSubId": "2800000000026",
+    "receiveNo": "R20250512002",
+    "receiveSubNo": "RS20250512002-01",
+    "receivePerson": "易烊千玺",
+    "shopName": "吉嘉名品汇浦东新区店",
+    "createTime": "2025-05-12 12:46:39",
+    "productName": "雷朋 太阳镜 RB3025",
+    "fileList": [
+      {
+        "id": 500051,
+        "fileUrl": "https://lg5-prod-1314932667.cos.ap-nanjing.myqcloud.com/applet/erso-applet/list-shangpinleimu"
+      },
+      {
+        "id": 500052,
+        "fileUrl": "https://picx.zhimg.com/v2-b2c5c1712c8b220886d50757def3e694_1440w.jpg"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/71cg2dtoe7/100/100",
+    "receiveSubId": "2800000000027",
+    "receiveNo": "R20250513001",
+    "receiveSubNo": "RS20250513001-01",
+    "receivePerson": "王源",
+    "shopName": "上海吉舰嘉科技服务有限公司",
+    "createTime": "2025-05-13 09:33:47",
+    "productName": "Bose QC45 降噪耳机",
+    "fileList": [
+      {
+        "id": 500053,
+        "fileUrl": "https://pic2.zhimg.com/80/v2-ab88eb2e7444829df4df82398ab52f29_720w.webp"
+      },
+      {
+        "id": 500054,
+        "fileUrl": "https://lg5-prod-1314932667.cos.ap-nanjing.myqcloud.com/applet/erso-applet/list-shangpinshuliang"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/7n11709afj/100/100",
+    "receiveSubId": "2800000000028",
+    "receiveNo": "R20250513002",
+    "receiveSubNo": "RS20250513002-01",
+    "receivePerson": "周杰伦",
+    "shopName": "吉嘉名品汇虹口店",
+    "createTime": "2025-05-13 14:10:02",
+    "productName": "索尼 WH-1000XM5",
+    "fileList": [
+      {
+        "id": 500055,
+        "fileUrl": "https://picx.zhimg.com/v2-b2c5c1712c8b220886d50757def3e694_1440w.jpg"
+      },
+      {
+        "id": 500056,
+        "fileUrl": "https://lg5-prod-1314932667.cos.ap-nanjing.myqcloud.com/applet/erso-applet/list-expand"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/ywiroug5uk/100/100",
+    "receiveSubId": "2800000000029",
+    "receiveNo": "R20250514001",
+    "receiveSubNo": "RS20250514001-01",
+    "receivePerson": "林俊杰",
+    "shopName": "宁伙伴科技公司",
+    "createTime": "2025-05-14 08:22:21",
+    "productName": "苹果 HomePod mini",
+    "fileList": [
+      {
+        "id": 500057,
+        "fileUrl": "https://pic2.zhimg.com/80/v2-ab88eb2e7444829df4df82398ab52f29_720w.webp"
+      },
+      {
+        "id": 500058,
+        "fileUrl": "https://lg5-prod-1314932667.cos.ap-nanjing.myqcloud.com/applet/erso-applet/list-qiwangzongjine"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/8jrs9ntldw/100/100",
+    "receiveSubId": "2800000000030",
+    "receiveNo": "R20250514002",
+    "receiveSubNo": "RS20250514002-01",
+    "receivePerson": "蔡徐坤",
+    "shopName": "吉嘉名品汇嘉定店",
+    "createTime": "2025-05-14 10:56:38",
+    "productName": "JBL Charge 5 蓝牙音箱",
+    "fileList": [
+      {
+        "id": 500059,
+        "fileUrl": "https://picx.zhimg.com/v2-b2c5c1712c8b220886d50757def3e694_1440w.jpg"
+      },
+      {
+        "id": 500060,
+        "fileUrl": "https://pic2.zhimg.com/80/v2-ab88eb2e7444829df4df82398ab52f29_720w.webp"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/02vqyryzd8/100/100",
+    "receiveSubId": "2800000000031",
+    "receiveNo": "R20250515001",
+    "receiveSubNo": "RS20250515001-01",
+    "receivePerson": "王祖贤",
+    "shopName": "吉嘉名品汇浦东新区店",
+    "createTime": "2025-05-15 09:41:19",
+    "productName": "Kindle Paperwhite 11代",
+    "fileList": [
+      {
+        "id": 500061,
+        "fileUrl": "https://lg5-prod-1314932667.cos.ap-nanjing.myqcloud.com/applet/erso-applet/list-shangpinleimu"
+      },
+      {
+        "id": 500062,
+        "fileUrl": "https://picx.zhimg.com/v2-b2c5c1712c8b220886d50757def3e694_1440w.jpg"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/5gjiwubwrh/100/100",
+    "receiveSubId": "2800000000032",
+    "receiveNo": "R20250515002",
+    "receiveSubNo": "RS20250515002-01",
+    "receivePerson": "张国荣",
+    "shopName": "上海吉舰嘉科技服务有限公司",
+    "createTime": "2025-05-15 12:22:05",
+    "productName": "小米平板6 Pro",
+    "fileList": [
+      {
+        "id": 500063,
+        "fileUrl": "https://pic2.zhimg.com/80/v2-ab88eb2e7444829df4df82398ab52f29_720w.webp"
+      },
+      {
+        "id": 500064,
+        "fileUrl": "https://lg5-prod-1314932667.cos.ap-nanjing.myqcloud.com/applet/erso-applet/list-shangpinshuliang"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/ulld135x0n/100/100",
+    "receiveSubId": "2800000000033",
+    "receiveNo": "R20250516001",
+    "receiveSubNo": "RS20250516001-01",
+    "receivePerson": "刘亦菲",
+    "shopName": "吉嘉名品汇虹口店",
+    "createTime": "2025-05-16 16:33:31",
+    "productName": "华硕 ROG 幻14 笔记本",
+    "fileList": [
+      {
+        "id": 500065,
+        "fileUrl": "https://picx.zhimg.com/v2-b2c5c1712c8b220886d50757def3e694_1440w.jpg"
+      },
+      {
+        "id": 500066,
+        "fileUrl": "https://lg5-prod-1314932667.cos.ap-nanjing.myqcloud.com/applet/erso-applet/list-expand"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/9iu8aaw28z/100/100",
+    "receiveSubId": "2800000000034",
+    "receiveNo": "R20250516002",
+    "receiveSubNo": "RS20250516002-01",
+    "receivePerson": "倪妮",
+    "shopName": "宁伙伴科技公司",
+    "createTime": "2025-05-16 18:09:52",
+    "productName": "戴尔 XPS 13",
+    "fileList": [
+      {
+        "id": 500067,
+        "fileUrl": "https://pic2.zhimg.com/80/v2-ab88eb2e7444829df4df82398ab52f29_720w.webp"
+      },
+      {
+        "id": 500068,
+        "fileUrl": "https://lg5-prod-1314932667.cos.ap-nanjing.myqcloud.com/applet/erso-applet/list-qiwangzongjine"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/9w7h91m7bw/100/100",
+    "receiveSubId": "2800000000035",
+    "receiveNo": "R20250517001",
+    "receiveSubNo": "RS20250517001-01",
+    "receivePerson": "谭松韵",
+    "shopName": "吉嘉名品汇嘉定店",
+    "createTime": "2025-05-17 10:19:07",
+    "productName": "联想 ThinkPad X1 Carbon",
+    "fileList": [
+      {
+        "id": 500069,
+        "fileUrl": "https://picx.zhimg.com/v2-b2c5c1712c8b220886d50757def3e694_1440w.jpg"
+      },
+      {
+        "id": 500070,
+        "fileUrl": "https://pic2.zhimg.com/80/v2-ab88eb2e7444829df4df82398ab52f29_720w.webp"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/2gg7i8747j/100/100",
+    "receiveSubId": "2800000000036",
+    "receiveNo": "R20250517002",
+    "receiveSubNo": "RS20250517002-01",
+    "receivePerson": "白敬亭",
+    "shopName": "吉嘉名品汇浦东新区店",
+    "createTime": "2025-05-17 14:48:22",
+    "productName": "BenQ 27英寸显示器",
+    "fileList": [
+      {
+        "id": 500071,
+        "fileUrl": "https://lg5-prod-1314932667.cos.ap-nanjing.myqcloud.com/applet/erso-applet/list-shangpinleimu"
+      },
+      {
+        "id": 500072,
+        "fileUrl": "https://picx.zhimg.com/v2-b2c5c1712c8b220886d50757def3e694_1440w.jpg"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/d1sb3xpsur/100/100",
+    "receiveSubId": "2800000000037",
+    "receiveNo": "R20250518001",
+    "receiveSubNo": "RS20250518001-01",
+    "receivePerson": "张若昀",
+    "shopName": "上海吉舰嘉科技服务有限公司",
+    "createTime": "2025-05-18 09:05:19",
+    "productName": "罗技 MX Master 3S 鼠标",
+    "fileList": [
+      {
+        "id": 500073,
+        "fileUrl": "https://pic2.zhimg.com/80/v2-ab88eb2e7444829df4df82398ab52f29_720w.webp"
+      },
+      {
+        "id": 500074,
+        "fileUrl": "https://lg5-prod-1314932667.cos.ap-nanjing.myqcloud.com/applet/erso-applet/list-shangpinshuliang"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/jop4vngdjt/100/100",
+    "receiveSubId": "2800000000038",
+    "receiveNo": "R20250518002",
+    "receiveSubNo": "RS20250518002-01",
+    "receivePerson": "王珞丹",
+    "shopName": "吉嘉名品汇虹口店",
+    "createTime": "2025-05-18 13:22:48",
+    "productName": "Keychron K2 机械键盘",
+    "fileList": [
+      {
+        "id": 500075,
+        "fileUrl": "https://picx.zhimg.com/v2-b2c5c1712c8b220886d50757def3e694_1440w.jpg"
+      },
+      {
+        "id": 500076,
+        "fileUrl": "https://lg5-prod-1314932667.cos.ap-nanjing.myqcloud.com/applet/erso-applet/list-expand"
+      }
+    ]
+  },
+  {
+    "receiveAvatar": "https://picsum.photos/seed/azzbxq5z4e/100/100",
+    "receiveSubId": "2800000000039",
+    "receiveNo": "R20250519001",
+    "receiveSubNo": "RS20250519001-01",
+    "receivePerson": "高圆圆",
+    "shopName": "宁伙伴科技公司",
+    "createTime": "2025-05-19 11:10:36",
+    "productName": "西部数据 2TB 移动硬盘",
+    "fileList": [
+      {
+        "id": 500077,
+        "fileUrl": "https://pic2.zhimg.com/80/v2-ab88eb2e7444829df4df82398ab52f29_720w.webp"
+      },
+      {
+        "id": 500078,
+        "fileUrl": "https://lg5-prod-1314932667.cos.ap-nanjing.myqcloud.com/applet/erso-applet/list-qiwangzongjine"
+      }
+    ]
+  }
+]

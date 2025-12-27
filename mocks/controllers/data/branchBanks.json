@@ -1,0 +1,42 @@
+[
+  {
+    "cnapsName": "中国工商银行北京分行",
+    "cnapsCode": "102100000018"
+  },
+  {
+    "cnapsName": "中国工商银行上海分行",
+    "cnapsCode": "102290000015"
+  },
+  {
+    "cnapsName": "中国工商银行广州分行",
+    "cnapsCode": "102581000010"
+  },
+  {
+    "cnapsName": "中国工商银行深圳分行",
+    "cnapsCode": "102584000012"
+  },
+  {
+    "cnapsName": "中国工商银行杭州分行",
+    "cnapsCode": "102331000016"
+  },
+  {
+    "cnapsName": "中国工商银行南京分行",
+    "cnapsCode": "102301000014"
+  },
+  {
+    "cnapsName": "中国工商银行武汉分行",
+    "cnapsCode": "102521000013"
+  },
+  {
+    "cnapsName": "中国工商银行成都分行",
+    "cnapsCode": "102651000017"
+  },
+  {
+    "cnapsName": "中国工商银行西安分行",
+    "cnapsCode": "102791000019"
+  },
+  {
+    "cnapsName": "中国工商银行重庆分行",
+    "cnapsCode": "102653000011"
+  }
+]

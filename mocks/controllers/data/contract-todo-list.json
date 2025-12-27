@@ -1,0 +1,162 @@
+[
+  {
+    "contractId": 1,
+    "contractNo": "HT202501230001",
+    "contractSubject": "奢侈品销售合同-爱马仕包包",
+    "businessType": "SALE",
+    "initiator": "上海奢品旗舰店",
+    "personActorName": "张三"
+  },
+  {
+    "contractId": 2,
+    "contractNo": "HT202501230002",
+    "contractSubject": "退货合同-劳力士手表",
+    "businessType": "OFFLINE",
+    "initiator": "北京奢侈品专卖店",
+    "personActorName": "李四"
+  },
+  {
+    "contractId": 3,
+    "contractNo": "HT202501230003",
+    "contractSubject": "采购合同-LV手袋",
+    "businessType": "THREE_PARTY",
+    "initiator": "深圳奢侈品供应商",
+    "personActorName": "王五"
+  },
+  {
+    "contractId": 4,
+    "contractNo": "HT202501230004",
+    "contractSubject": "奢侈品销售合同-香奈儿香水",
+    "businessType": "SALE",
+    "initiator": "广州奢品会所",
+    "personActorName": "赵六"
+  },
+  {
+    "contractId": 5,
+    "contractNo": "HT202501230005",
+    "contractSubject": "采购合同-卡地亚手镯",
+    "businessType": "THREE_PARTY",
+    "initiator": "杭州奢品采购中心",
+    "personActorName": "孙七"
+  },
+  {
+    "contractId": 6,
+    "contractNo": "HT202501230006",
+    "contractSubject": "奢侈品销售合同-古驰包",
+    "businessType": "SALE",
+    "initiator": "成都奢品商贸",
+    "personActorName": "周八"
+  },
+  {
+    "contractId": 7,
+    "contractNo": "HT202501230007",
+    "contractSubject": "退货合同-普拉达鞋子",
+    "businessType": "OFFLINE",
+    "initiator": "武汉奢品汇",
+    "personActorName": "吴九"
+  },
+  {
+    "contractId": 8,
+    "contractNo": "HT202501230008",
+    "contractSubject": "采购合同-迪奥围巾",
+    "businessType": "THREE_PARTY",
+    "initiator": "南京奢品集团",
+    "personActorName": "郑十"
+  },
+  {
+    "contractId": 9,
+    "contractNo": "HT202501230009",
+    "contractSubject": "奢侈品销售合同-巴宝莉风衣",
+    "businessType": "SALE",
+    "initiator": "重庆奢品行",
+    "personActorName": "钱一"
+  },
+  {
+    "contractId": 10,
+    "contractNo": "HT202501230010",
+    "contractSubject": "采购合同-爱马仕丝巾",
+    "businessType": "THREE_PARTY",
+    "initiator": "西安奢品供应链",
+    "personActorName": "陈二"
+  },
+  {
+    "contractId": 11,
+    "contractNo": "HT202501230011",
+    "contractSubject": "奢侈品销售合同-蒂芙尼项链",
+    "businessType": "SALE",
+    "initiator": "苏州奢品店",
+    "personActorName": "刘三"
+  },
+  {
+    "contractId": 12,
+    "contractNo": "HT202501230012",
+    "contractSubject": "退货合同-芬迪包",
+    "businessType": "OFFLINE",
+    "initiator": "天津奢品中心",
+    "personActorName": "林四"
+  },
+  {
+    "contractId": 13,
+    "contractNo": "HT202501230013",
+    "contractSubject": "采购合同-范思哲衬衫",
+    "businessType": "THREE_PARTY",
+    "initiator": "长沙奢品采购",
+    "personActorName": "黄五"
+  },
+  {
+    "contractId": 14,
+    "contractNo": "HT202501230014",
+    "contractSubject": "奢侈品销售合同-宝格丽戒指",
+    "businessType": "SALE",
+    "initiator": "郑州奢侈品会馆",
+    "personActorName": "何六"
+  },
+  {
+    "contractId": 15,
+    "contractNo": "HT202501230015",
+    "contractSubject": "采购合同-圣罗兰口红",
+    "businessType": "THREE_PARTY",
+    "initiator": "福州奢品供应商",
+    "personActorName": "许七"
+  },
+  {
+    "contractId": 16,
+    "contractNo": "HT202501230016",
+    "contractSubject": "奢侈品销售合同-万宝龙钢笔",
+    "businessType": "SALE",
+    "initiator": "济南奢品店铺",
+    "personActorName": "叶八"
+  },
+  {
+    "contractId": 17,
+    "contractNo": "HT202501230017",
+    "contractSubject": "退货合同-阿玛尼西装",
+    "businessType": "OFFLINE",
+    "initiator": "沈阳奢品汇",
+    "personActorName": "唐九"
+  },
+  {
+    "contractId": 18,
+    "contractNo": "HT202501230018",
+    "contractSubject": "采购合同-博柏利围巾",
+    "businessType": "THREE_PARTY",
+    "initiator": "大连奢品供应链",
+    "personActorName": "魏十"
+  },
+  {
+    "contractId": 19,
+    "contractNo": "HT202501230019",
+    "contractSubject": "奢侈品销售合同-杰尼亚西装",
+    "businessType": "SALE",
+    "initiator": "青岛奢品专卖",
+    "personActorName": "韩一"
+  },
+  {
+    "contractId": 20,
+    "contractNo": "HT202501230020",
+    "contractSubject": "采购合同-蔻驰包包",
+    "businessType": "THREE_PARTY",
+    "initiator": "宁波奢品集团",
+    "personActorName": "邓二"
+  }
+]

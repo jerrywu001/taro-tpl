@@ -1,0 +1,189 @@
+{
+  "id": 10001,
+  "leafCategoryId": 101,
+  "productCode": "CHANEL-CF25-BLK",
+  "title": "爱彼 皇家橡树系列 15400ST.OO.1220ST.01",
+  "status": 1,
+  "formSchemaHash": "abc123def456",
+  "brandId": 1,
+  "brandName": "爱彼",
+  "brandNameEn": "AUDEMARS PIGUET",
+  "seriesId": 101,
+  "seriesName": "皇家橡树",
+  "modelId": 1001,
+  "modelName": "15400ST",
+  "dynamicFields": [
+    {
+      "id": 1,
+      "leafId": 101,
+      "key": "material",
+      "attrType": "CORE",
+      "componentType": "SELECT_SINGLE",
+      "label": "表壳材质",
+      "description": "请选择表壳材质",
+      "required": true,
+      "visible": true,
+      "status": 0,
+      "value": "steel",
+      "options": [
+        {
+          "label": "精钢",
+          "value": "steel",
+          "status": 1
+        },
+        {
+          "label": "玫瑰金",
+          "value": "rose_gold",
+          "status": 0
+        },
+        {
+          "label": "白金",
+          "value": "white_gold",
+          "status": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "leafId": 101,
+      "key": "diameter",
+      "attrType": "CORE",
+      "componentType": "TEXT_SHORT",
+      "label": "表径",
+      "description": "表盘直径",
+      "required": true,
+      "visible": true,
+      "status": 0,
+      "value": "41mm"
+    },
+    {
+      "id": 3,
+      "leafId": 101,
+      "key": "movement",
+      "attrType": "CORE",
+      "componentType": "SELECT_SINGLE",
+      "label": "机芯类型",
+      "description": "请选择机芯类型",
+      "required": true,
+      "visible": true,
+      "status": 0,
+      "value": "automatic",
+      "options": [
+        {
+          "label": "自动机械",
+          "value": "automatic",
+          "status": 1
+        },
+        {
+          "label": "手动机械",
+          "value": "manual",
+          "status": 0
+        },
+        {
+          "label": "石英",
+          "value": "quartz",
+          "status": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "leafId": 101,
+      "key": "dial_color",
+      "attrType": "SALES",
+      "componentType": "ENUM_RADIO",
+      "label": "表盘颜色",
+      "description": "请选择表盘颜色",
+      "required": true,
+      "visible": true,
+      "status": 0,
+      "value": "blue",
+      "options": [
+        {
+          "label": "蓝色",
+          "value": "blue",
+          "status": 1
+        },
+        {
+          "label": "黑色",
+          "value": "black",
+          "status": 0
+        },
+        {
+          "label": "白色",
+          "value": "white",
+          "status": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "leafId": 101,
+      "key": "water_resistance",
+      "attrType": "CORE",
+      "componentType": "NUMBER",
+      "label": "防水深度",
+      "description": "防水深度（米）",
+      "required": false,
+      "visible": true,
+      "status": 0,
+      "value": 50
+    },
+    {
+      "id": 6,
+      "leafId": 101,
+      "key": "strap_material",
+      "attrType": "SALES",
+      "componentType": "SELECT_SINGLE",
+      "label": "表带材质",
+      "description": "请选择表带材质",
+      "required": true,
+      "visible": true,
+      "status": 0,
+      "value": "steel_bracelet",
+      "options": [
+        {
+          "label": "精钢表链",
+          "value": "steel_bracelet",
+          "status": 1
+        },
+        {
+          "label": "皮革表带",
+          "value": "leather_strap",
+          "status": 0
+        },
+        {
+          "label": "橡胶表带",
+          "value": "rubber_strap",
+          "status": 0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "leafId": 101,
+      "key": "power_reserve",
+      "attrType": "CORE",
+      "componentType": "NUMBER",
+      "label": "动力储存",
+      "description": "动力储存（小时）",
+      "required": false,
+      "visible": true,
+      "status": 0,
+      "value": 60
+    },
+    {
+      "id": 8,
+      "leafId": 101,
+      "key": "description",
+      "attrType": "DESC",
+      "componentType": "TEXT_LONG",
+      "label": "商品描述",
+      "description": "请输入商品描述",
+      "required": false,
+      "visible": true,
+      "status": 0,
+      "value": "爱彼皇家橡树系列是奢华运动腕表的典范之作，采用标志性的八角形表圈和一体式表链设计。"
+    }
+  ]
+}

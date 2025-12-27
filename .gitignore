@@ -1,0 +1,17 @@
+dist/
+deploy_versions/
+.temp/
+.rn_temp/
+node_modules/
+.DS_Store
+.swc
+*.local
+.eslintcache
+.stylelintcache
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+bun.lockb
+components.d.ts
+project.private.config.json
+.claude/tmp/

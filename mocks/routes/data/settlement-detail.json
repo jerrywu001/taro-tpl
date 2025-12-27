@@ -1,0 +1,112 @@
+{
+  "id": 1001,
+  "settlementNo": "JS202501230001",
+  "settlementType": "RECEIVE",
+  "relatedOrderId": 1001,
+  "relatedOrderNo": "TPL202501230001",
+  "supplierId": 100001,
+  "supplierName": "上海奢品供应商有限公司",
+  "supplierPhone": "13800138001",
+  "productCount": 2,
+  "categoryCount": 2,
+  "originalPrice": 1580000.00,
+  "amountPayable": 1550000.00,
+  "amountPaid": 800000.00,
+  "remainingAmount": 750000.00,
+  "settlementStatus": "PARTIAL",
+  "status": "DRAFT",
+  "remark": "本批次商品成色良好，按约定价格结算",
+  "payeeName": "张三",
+  "payeeIdentity": "310101199001011234",
+  "payeePhone": "13800138000",
+  "payeeBankAccount": "6222021001234567890",
+  "payeeBankCode": "ICBC",
+  "payeeBankBranchCode": "ICBC0001",
+  "payeeBankName": "中国工商银行",
+  "payeeBankBranchName": "中国工商银行上海市分行黄浦支行",
+  "createTime": "2025-01-23 10:30:00",
+  "updateTime": "2025-01-23 15:45:00",
+  "creator": "王经理",
+  "updater": "李审核员",
+  "auditOperatorId": 100002,
+  "auditOperatorName": "李审核员",
+  "auditComment": "审核通过，按约定价格结算",
+  "auditTime": "2025-01-23 15:45:00",
+  "items": [
+    {
+      "id": 10001,
+      "settlementId": 1001,
+      "settlementNo": "JS202501230001",
+      "subSettlementNo": "R20250-08",
+      "businessType": "SALE",
+      "businessDetailId": 20001,
+      "subOrderNo": "R202509001-001",
+      "productCode": "CHANEL-CF25-BLK",
+      "productName": "Chanel Classic Flap Medium",
+      "categoryName": "手袋",
+      "brandName": "Chanel",
+      "productCondition": "95新",
+      "originalPrice": 858000.00,
+      "amountPayable": 853000.00,
+      "amountSettled": 850000.00,
+      "remark": "",
+      "fileUrls": [
+        "https://sssq3.itc.cn/q_70/images03/20250110/1e71eecf56b34344bcae6a5b85c0bec2.jpeg"
+      ]
+    }
+  ],
+  "receiptOrders": [
+    {
+      "id": 1001
+    }
+  ],
+  "payTypes": [
+    "OFFLINE",
+    "ONLINE"
+  ],
+  "memberSnapshot": {
+    "id": 1001,
+    "memberName": "上海奢品供应商有限公司",
+    "name": "张三",
+    "phone": "13800138001",
+    "payPhone": "13800138000",
+    "avatar": "https://sssq3.itc.cn/q_70/images03/20250110/avatar.jpeg",
+    "sex": 0,
+    "idNo": "310101199001011234",
+    "email": "supplier@example.com",
+    "bankName": "中国工商银行",
+    "bankCode": "ICBC",
+    "bankBranch": "中国工商银行上海市分行黄浦支行",
+    "bankBranchCode": "ICBC0001",
+    "bankAccount": "6222021001234567890",
+    "authStatus": 1
+  },
+  "bankCards": [
+    {
+      "id": 1,
+      "name": "张三",
+      "idNo": "310101199001011234",
+      "phone": "13800138000",
+      "bankName": "中国工商银行",
+      "bankCode": "ICBC",
+      "bankBranch": "中国工商银行上海市分行黄浦支行",
+      "bankBranchCode": "ICBC0001",
+      "bankAccount": "6222021001234567890",
+      "status": 1,
+      "amount": 820000.00
+    },
+    {
+      "id": 2,
+      "name": "李四",
+      "idNo": "310101199002021234",
+      "phone": "13800138002",
+      "bankName": "中国农业银行",
+      "bankCode": "ABC",
+      "bankBranch": "中国农业银行上海市分行",
+      "bankBranchCode": "ABC0001",
+      "bankAccount": "6228480012345678901",
+      "status": 1,
+      "amount": 30000.00
+    }
+  ]
+}

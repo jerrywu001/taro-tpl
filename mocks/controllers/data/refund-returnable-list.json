@@ -1,0 +1,122 @@
+[
+  {
+    "receiveSubId": 1001,
+    "refundSubId": 0,
+    "receiveSubNo": "SJ202501070001-001",
+    "productName": "Gucci 酒神包",
+    "brandName": "Gucci",
+    "conditionName": "95新",
+    "appraisalStatus": 1,
+    "settlementAmount": 15000,
+    "refundAmount": 15000,
+    "fileList": [
+      {
+        "id": 1,
+        "busId": 1001,
+        "fileUrl": "https://picsum.photos/200/200?random=1",
+        "flag": "receive"
+      },
+      {
+        "id": 2,
+        "busId": 1001,
+        "fileUrl": "https://picsum.photos/200/200?random=2",
+        "flag": "receive"
+      }
+    ]
+  },
+  {
+    "receiveSubId": 1002,
+    "refundSubId": 0,
+    "receiveSubNo": "SJ202501070001-002",
+    "productName": "LV 经典款手提包",
+    "brandName": "Louis Vuitton",
+    "conditionName": "99新",
+    "appraisalStatus": 1,
+    "settlementAmount": 18000,
+    "refundAmount": 18000,
+    "fileList": [
+      {
+        "id": 3,
+        "busId": 1002,
+        "fileUrl": "https://picsum.photos/200/200?random=3",
+        "flag": "receive"
+      }
+    ]
+  },
+  {
+    "receiveSubId": 1003,
+    "refundSubId": 0,
+    "receiveSubNo": "SJ202501070001-003",
+    "productName": "Chanel 经典款链条包",
+    "brandName": "Chanel",
+    "conditionName": "90新",
+    "appraisalStatus": 1,
+    "settlementAmount": 22000,
+    "refundAmount": 22000,
+    "fileList": [
+      {
+        "id": 4,
+        "busId": 1003,
+        "fileUrl": "https://picsum.photos/200/200?random=4",
+        "flag": "receive"
+      },
+      {
+        "id": 5,
+        "busId": 1003,
+        "fileUrl": "https://picsum.photos/200/200?random=5",
+        "flag": "receive"
+      },
+      {
+        "id": 6,
+        "busId": 1003,
+        "fileUrl": "https://picsum.photos/200/200?random=6",
+        "flag": "receive"
+      }
+    ]
+  },
+  {
+    "receiveSubId": 1004,
+    "refundSubId": 0,
+    "receiveSubNo": "SJ202501070001-004",
+    "productName": "Hermès Kelly 25",
+    "brandName": "Hermès",
+    "conditionName": "全新",
+    "appraisalStatus": 1,
+    "settlementAmount": 58000,
+    "refundAmount": 58000,
+    "fileList": [
+      {
+        "id": 7,
+        "busId": 1004,
+        "fileUrl": "https://picsum.photos/200/200?random=7",
+        "flag": "receive"
+      }
+    ]
+  },
+  {
+    "receiveSubId": 1005,
+    "refundSubId": 0,
+    "receiveSubNo": "SJ202501070001-005",
+    "productName": "Dior 戴妃包",
+    "brandName": "Dior",
+    "conditionName": "98新",
+    "appraisalStatus": 1,
+    "settlementAmount": 28000,
+    "refundAmount": 28000,
+    "fileList": [
+      {
+        "id": 8,
+        "busId": 1005,
+        "fileUrl": "https://picsum.photos/200/200?random=8",
+        "flag": "receive"
+      },
+      {
+        "id": 9,
+        "busId": 1005,
+        "fileUrl": "https://picsum.photos/200/200?random=9",
+        "flag": "receive"
+      }
+    ]
+  }
+]
+

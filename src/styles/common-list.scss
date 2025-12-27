@@ -1,0 +1,168 @@
+.datalist-search {
+  margin: 0;
+  padding: 24px;
+  background-color: #fff;
+}
+
+.datalist-conditions-btn {
+  margin-left: 10px;
+  width: 120px;
+  color: #333;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-position: 8px 50%;
+  background-size: 28px 28px;
+  background-image: url(https://lg5-prod-1314932667.cos.ap-nanjing.myqcloud.com/applet/erso-applet/common/conditions.png);
+
+  &.active {
+    color: #A28071;
+    background-image: url(https://lg5-prod-1314932667.cos.ap-nanjing.myqcloud.com/applet/erso-applet/common/conditions_active.png);
+  }
+
+  &:active {
+    opacity: .7;
+  }
+}
+
+.dlc-container {
+  flex-direction: column;
+  height: calc(100% - 24rpx);
+  display: flex;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-top: 24px;
+  padding: 0;
+}
+
+.dlc-scroll {
+  flex: 1;
+  padding: 0 0 0 16px;
+  overflow-y: auto;
+}
+
+.dlc-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  padding: 24px 16px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-sizing: border-box;
+  width: calc(100% - 32px);
+
+  &.hidden {
+    display: none;
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
+}
+
+.dli {
+  &-header {
+    margin-bottom: 26px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    image {
+      width: 36px;
+      height: 36px;
+      margin-right: 8px;
+    }
+  }
+
+  &-code {
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &-detail-link {
+    font-size: 28px;
+    color: var(--nut-secondary-color);
+    display: flex;
+    align-items: flex-end;
+
+    image {
+      width: 32px;
+      height: 32px;
+      margin-left: 8px;
+    }
+  }
+
+  &-shop-name {
+    max-width: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &-field {
+    color: #333;
+    display: flex;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 18px;
+    align-items: baseline;
+
+    &-label {
+      color: #999;
+      width: 156px;
+      padding-right: 36px;
+      font-size: 24px;
+    }
+
+    &-value {
+      text-align: right;
+      font-size: 28px;
+      display: flex;
+      justify-content: flex-end;
+      flex: 1;
+
+      &.strong {
+        font-weight: 600;
+      }
+
+      &.red {
+        color: #FF4D4F;
+      }
+    }
+
+    &.start {
+      align-items: flex-start;
+
+      .dli-field-value {
+        .common-image-list {
+          justify-content: flex-end;
+        }
+
+        .common-image-item {
+          width: 100px;
+          height: 100px;
+        }
+      }
+    }
+  }
+
+  &-btns {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    border-top: 1px solid #EEE;
+    padding-top: 16px;
+
+    .nut-button {
+      height: 56px;
+      border-radius: 8px;
+      font-size: 28px;
+    }
+  }
+}

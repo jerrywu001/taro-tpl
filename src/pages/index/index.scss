@@ -1,0 +1,68 @@
+.index {
+  background-color: #fff;
+}
+
+.privacy-dialog {
+  .nut-dialog {
+    width: 100%;
+    padding: 0;
+    height: 100%;
+  }
+
+  .nut-dialog__content {
+    padding-bottom: 0;
+    margin-bottom: 12px;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    line-height: auto;
+
+    &::after {
+      display: none;
+      height: auto;
+    }
+  }
+}
+
+.privacy {
+  &-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    padding-bottom: 26px;
+  }
+
+  &-content {
+    font-size: 28px;
+    padding: 0 26px;
+    text-align: left;
+  }
+
+  &-btns {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 26px;
+    margin-top: 46px;
+    border-top: 1px #e2e0e0 solid;
+
+    &-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 0;
+      flex: 1;
+      font-size: 28px;
+
+      &:last-child {
+        color: #37F;
+      }
+
+      &:active {
+        opacity: .7;
+      }
+    }
+  }
+}

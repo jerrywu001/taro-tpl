@@ -1,0 +1,10 @@
+{
+  "name": "duckduckgo",
+  "command": "npx",
+  "args": [
+    "-y",
+    "@oevortex/ddg_search@latest"
+  ],
+  "type": "stdio",
+  "env": {}
+}

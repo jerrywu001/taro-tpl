@@ -1,0 +1,97 @@
+[
+  {
+    "id": "1001",
+    "type": "OEM",
+    "name": "iPhone 14 Pro 原装充电器",
+    "leafCategoryId": "2001",
+    "leafCategoryName": "手机充电器",
+    "leafCategoryCounts": 3,
+    "brandCounts": 1,
+    "status": "ENABLED",
+    "createTime": "2024-01-15 10:30:00",
+    "updateTime": "2024-01-20 14:25:00",
+    "creator": "张三",
+    "updater": "李四",
+    "leafCategoryIds": [
+      "2001",
+      "2002",
+      "2003"
+    ]
+  },
+  {
+    "id": "1002",
+    "type": "AFTERMARKET",
+    "name": "通用蓝牙耳机保护套",
+    "leafCategoryId": "2004",
+    "leafCategoryName": "耳机配件",
+    "leafCategoryCounts": 5,
+    "brandCounts": 8,
+    "status": "ENABLED",
+    "createTime": "2024-01-18 09:15:00",
+    "updateTime": "2024-01-25 16:40:00",
+    "creator": "王五",
+    "updater": "赵六",
+    "leafCategoryIds": [
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008"
+    ]
+  },
+  {
+    "id": "1003",
+    "type": "OEM",
+    "name": "MacBook Pro 原装电源适配器",
+    "leafCategoryId": "2009",
+    "leafCategoryName": "笔记本电源",
+    "leafCategoryCounts": 2,
+    "brandCounts": 1,
+    "status": "GRACE",
+    "createTime": "2024-01-22 11:45:00",
+    "updateTime": "2024-01-28 13:20:00",
+    "creator": "陈七",
+    "updater": "周八",
+    "leafCategoryIds": [
+      "2009",
+      "2010"
+    ]
+  },
+  {
+    "id": "1004",
+    "type": "AFTERMARKET",
+    "name": "车载手机支架",
+    "leafCategoryId": "2011",
+    "leafCategoryName": "车载配件",
+    "leafCategoryCounts": 4,
+    "brandCounts": 12,
+    "status": "ENABLED",
+    "createTime": "2024-01-25 14:20:00",
+    "updateTime": "2024-02-01 10:15:00",
+    "creator": "吴九",
+    "updater": "郑十",
+    "leafCategoryIds": [
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ]
+  },
+  {
+    "id": "1005",
+    "type": "OEM",
+    "name": "Apple Watch 原装磁力充电线",
+    "leafCategoryId": "2015",
+    "leafCategoryName": "智能手表配件",
+    "leafCategoryCounts": 1,
+    "brandCounts": 1,
+    "status": "DISABLED",
+    "createTime": "2024-01-30 16:50:00",
+    "updateTime": "2024-02-05 09:30:00",
+    "creator": "孙十一",
+    "updater": "李十二",
+    "leafCategoryIds": [
+      "2015"
+    ]
+  }
+]

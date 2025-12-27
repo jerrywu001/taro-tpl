@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "settlementId": 1001,
+    "settlementNo": "ST202510001",
+    "paymentNo": "PAY202510001",
+    "relatedOrderNo": "R202509001",
+    "settlementType": "RECEIVE",
+    "payAmount": 12850,
+    "actualAmount": 12850,
+    "supplierId": 1001,
+    "supplierName": "奢侈品供应链（上海）有限公司",
+    "payType": "OFFLINE",
+    "enterpriseAccount": "6222021001199887766",
+    "voucherFileUrls": [
+      "https://storage.360buyimg.com/jdc-article/NutUItaro34.jpg",
+      "https://storage.360buyimg.com/jdc-article/NutUItaro2.jpg"
+    ],
+    "payTime": "2025-10-16 10:30:00",
+    "remark": "收件付款",
+    "status": "SUCCESS",
+    "failReason": "",
+    "memberSnapshot": "{\"memberName\":\"张小姐\",\"phone\":\"13800138000\",\"idNo\":\"310101199001011234\"}",
+    "payeeName": "张小姐",
+    "payeeIdentity": "310101199001011234",
+    "payeePhone": "13800138000",
+    "payeeBankAccount": "6222021001122334455",
+    "payeeBankCode": "102100099996",
+    "payeeBankBranchCode": "102290000018",
+    "payeeBankName": "中国工商银行",
+    "payeeBankBranchName": "工商银行上海分行静安支行",
+    "createTime": "2025-10-15 14:30:00",
+    "creator": "系统管理员"
+  },
+  {
+    "id": 2,
+    "settlementId": 1002,
+    "settlementNo": "ST202510002",
+    "paymentNo": "PAY202510002",
+    "relatedOrderNo": "R202509001",
+    "settlementType": "RECEIVE",
+    "payAmount": 12700,
+    "actualAmount": 12700,
+    "supplierId": 1001,
+    "supplierName": "奢侈品供应链（上海）有限公司",
+    "payType": "ONLINE",
+    "enterpriseAccount": "6222021001199887766",
+    "voucherFileUrls": [
+      "https://storage.360buyimg.com/jdc-article/welcomenutui.jpg"
+    ],
+    "payTime": "2025-10-17 15:20:00",
+    "remark": "第二笔收件付款",
+    "status": "SUCCESS",
+    "failReason": "",
+    "memberSnapshot": "{\"memberName\":\"张小姐\",\"phone\":\"13800138000\",\"idNo\":\"310101199001011234\"}",
+    "payeeName": "张小姐",
+    "payeeIdentity": "310101199001011234",
+    "payeePhone": "13800138000",
+    "payeeBankAccount": "6222021001122334455",
+    "payeeBankCode": "102100099996",
+    "payeeBankBranchCode": "102290000018",
+    "payeeBankName": "中国工商银行",
+    "payeeBankBranchName": "工商银行上海分行静安支行",
+    "createTime": "2025-10-17 09:00:00",
+    "creator": "系统管理员"
+  }
+]
+

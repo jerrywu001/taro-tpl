@@ -1,0 +1,101 @@
+{
+  "undistAmt": 122.13,
+  "availAmt": 0.74,
+  "rcptAmtAsToday": 0.00,
+  "settleAmtAsToday": 0.00,
+  "refundAmtAsToday": 0.00,
+  "distAmtAsToday": 0.00,
+  "storeReceiptSummaries": [
+    {
+      "storeId": 1169779521280,
+      "storeName": "宁伙伴",
+      "unsettleAmt": 0.00,
+      "undistAmt": 122.18,
+      "rcptAmtAsToday": 0.00,
+      "rcptCountAsToday": 0,
+      "settleAmtAsToday": 0.00,
+      "refundAmtAsToday": 0.00,
+      "refundCountAsToday": 0,
+      "distAmtAsToday": 0.00,
+      "distCountAsToday": 0
+    },
+    {
+      "storeId": 1244590754944,
+      "storeName": "蜜雪冰城证大喜马拉雅店",
+      "unsettleAmt": 0.00,
+      "undistAmt": 0.00,
+      "rcptAmtAsToday": 0.00,
+      "rcptCountAsToday": 0,
+      "settleAmtAsToday": 0.00,
+      "refundAmtAsToday": 0.00,
+      "refundCountAsToday": 0,
+      "distAmtAsToday": 0.00,
+      "distCountAsToday": 0
+    },
+    {
+      "storeId": 1258534483200,
+      "storeName": "蜜雪冰城证大三店",
+      "unsettleAmt": 0.00,
+      "undistAmt": 0.00,
+      "rcptAmtAsToday": 0.00,
+      "rcptCountAsToday": 0,
+      "settleAmtAsToday": 0.00,
+      "refundAmtAsToday": 0.00,
+      "refundCountAsToday": 0,
+      "distAmtAsToday": 0.00,
+      "distCountAsToday": 0
+    },
+    {
+      "storeId": 1365709565824,
+      "storeName": "首充6元送福利",
+      "unsettleAmt": 0.00,
+      "undistAmt": 0.00,
+      "rcptAmtAsToday": 0.00,
+      "rcptCountAsToday": 0,
+      "settleAmtAsToday": 0.00,
+      "refundAmtAsToday": 0.00,
+      "refundCountAsToday": 0,
+      "distAmtAsToday": 0.00,
+      "distCountAsToday": 0
+    },
+    {
+      "storeId": 2417125606656,
+      "storeName": "瑞幸咖啡喜马拉雅店",
+      "unsettleAmt": 0.00,
+      "undistAmt": 0.00,
+      "rcptAmtAsToday": 0.00,
+      "rcptCountAsToday": 0,
+      "settleAmtAsToday": 0.00,
+      "refundAmtAsToday": 0.00,
+      "refundCountAsToday": 0,
+      "distAmtAsToday": 0.00,
+      "distCountAsToday": 0
+    },
+    {
+      "storeId": 2726021252096,
+      "storeName": "瑞幸咖啡喜马拉雅店2",
+      "unsettleAmt": 0.00,
+      "undistAmt": 0.00,
+      "rcptAmtAsToday": 0.00,
+      "rcptCountAsToday": 0,
+      "settleAmtAsToday": 0.00,
+      "refundAmtAsToday": 0.00,
+      "refundCountAsToday": 0,
+      "distAmtAsToday": 0.00,
+      "distCountAsToday": 0
+    },
+    {
+      "storeId": 3193499862016,
+      "storeName": "都荟天地城",
+      "unsettleAmt": 0.00,
+      "undistAmt": 0.01,
+      "rcptAmtAsToday": 0.00,
+      "rcptCountAsToday": 0,
+      "settleAmtAsToday": 0.00,
+      "refundAmtAsToday": 0.00,
+      "refundCountAsToday": 0,
+      "distAmtAsToday": 0.00,
+      "distCountAsToday": 0
+    }
+  ]
+}

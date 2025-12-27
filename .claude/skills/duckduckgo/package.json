@@ -1,0 +1,8 @@
+{
+  "name": "skill-duckduckgo",
+  "version": "1.0.0",
+  "description": "Claude Skill wrapper for duckduckgo MCP server",
+  "scripts": {
+    "setup": "pip install mcp"
+  }
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "bankName": "中国工商银行",
+    "bankCode": "ICBC"
+  },
+  {
+    "bankName": "中国农业银行",
+    "bankCode": "ABC"
+  },
+  {
+    "bankName": "中国银行",
+    "bankCode": "BOC"
+  },
+  {
+    "bankName": "中国建设银行",
+    "bankCode": "CCB"
+  },
+  {
+    "bankName": "交通银行",
+    "bankCode": "BOCOM"
+  },
+  {
+    "bankName": "招商银行",
+    "bankCode": "CMB"
+  },
+  {
+    "bankName": "中信银行",
+    "bankCode": "CITIC"
+  },
+  {
+    "bankName": "中国光大银行",
+    "bankCode": "CEB"
+  },
+  {
+    "bankName": "华夏银行",
+    "bankCode": "HXB"
+  },
+  {
+    "bankName": "中国民生银行",
+    "bankCode": "CMBC"
+  },
+  {
+    "bankName": "广发银行",
+    "bankCode": "GDB"
+  },
+  {
+    "bankName": "平安银行",
+    "bankCode": "PAB"
+  },
+  {
+    "bankName": "兴业银行",
+    "bankCode": "CIB"
+  },
+  {
+    "bankName": "浦发银行",
+    "bankCode": "SPDB"
+  },
+  {
+    "bankName": "邮政储蓄银行",
+    "bankCode": "PSBC"
+  },
+  {
+    "bankName": "北京银行",
+    "bankCode": "BOB"
+  },
+  {
+    "bankName": "上海银行",
+    "bankCode": "BOS"
+  },
+  {
+    "bankName": "江苏银行",
+    "bankCode": "JSBANK"
+  },
+  {
+    "bankName": "南京银行",
+    "bankCode": "NJCB"
+  },
+  {
+    "bankName": "宁波银行",
+    "bankCode": "NBCB"
+  },
+  {
+    "bankName": "杭州银行",
+    "bankCode": "HZCB"
+  },
+  {
+    "bankName": "徽商银行",
+    "bankCode": "HSBANK"
+  },
+  {
+    "bankName": "长沙银行",
+    "bankCode": "CSCB"
+  },
+  {
+    "bankName": "渤海银行",
+    "bankCode": "CBHB"
+  },
+  {
+    "bankName": "恒丰银行",
+    "bankCode": "HFBANK"
+  },
+  {
+    "bankName": "浙商银行",
+    "bankCode": "CZBANK"
+  },
+  {
+    "bankName": "广州银行",
+    "bankCode": "GZCB"
+  },
+  {
+    "bankName": "东莞银行",
+    "bankCode": "DRCB"
+  },
+  {
+    "bankName": "天津银行",
+    "bankCode": "TCCB"
+  },
+  {
+    "bankName": "重庆银行",
+    "bankCode": "CQBANK"
+  },
+  {
+    "bankName": "成都银行",
+    "bankCode": "CDCB"
+  },
+  {
+    "bankName": "青岛银行",
+    "bankCode": "QDCCB"
+  },
+  {
+    "bankName": "大连银行",
+    "bankCode": "DLBANK"
+  },
+  {
+    "bankName": "哈尔滨银行",
+    "bankCode": "HRBANK"
+  },
+  {
+    "bankName": "盛京银行",
+    "bankCode": "SHENGJING"
+  },
+  {
+    "bankName": "锦州银行",
+    "bankCode": "JZBANK"
+  },
+  {
+    "bankName": "郑州银行",
+    "bankCode": "ZZBANK"
+  },
+  {
+    "bankName": "西安银行",
+    "bankCode": "XABANK"
+  },
+  {
+    "bankName": "兰州银行",
+    "bankCode": "LZBANK"
+  },
+  {
+    "bankName": "乌鲁木齐银行",
+    "bankCode": "URMQCCB"
+  },
+  {
+    "bankName": "厦门银行",
+    "bankCode": "XMBANK"
+  },
+  {
+    "bankName": "福建海峡银行",
+    "bankCode": "FJHXBC"
+  },
+  {
+    "bankName": "泉州银行",
+    "bankCode": "QZCCB"
+  },
+  {
+    "bankName": "温州银行",
+    "bankCode": "WZCB"
+  },
+  {
+    "bankName": "台州银行",
+    "bankCode": "TZCB"
+  }
+]

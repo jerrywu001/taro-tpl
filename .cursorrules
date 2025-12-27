@@ -1,0 +1,67 @@
+# 项目概述
+基于 Taro 框架的微信小程序项目，严格遵循以下编码规范
+
+# TypeScript接口规范
+
+0. 生成类型定义前，先检查是否有同名的内容一样的定义，如果内容不一样才可以新增
+1. 接口使用大写 I 前缀，避免使用 vO/DTO 等后缀
+2. 使用清晰的命名如 Request/Response/Detail/Param 等
+3. 为每个接口和字段添加完整的 JSDoc 文档注释
+4. 不要出现 IPageResult<T> 和 ICommonResult<T>
+5. 保持命名简洁但具有描述性
+6. 响应部分只提供 context 即可
+7. 注释中不要出现 @extends、@implements、@example
+8. 请求参数定义 extends IPageParam
+9. interface 请统一加上 export
+10. 所有注释必须采用文档注释，单行注释只在函数内部出现
+
+# API实现规范（参考login.ts）
+
+1. API函数命名使用：查询/获取类操作使用 queryXXX 前缀，动作类使用 addXXX 前缀，编辑类操作使用 editXXX 前缀，切换类操作使用 toggleXXX 前缀
+2. 入参接口使用 IXXXParam 格式
+3. 使用 async/await 异步处理方式
+4. 使用 try/catch 进行错误处理，并统一使用 getHttpErrorMessage 处理错误信息
+5. 在函数开头定义返回数据的初始值（如 `let data = [] as XXX[]`）
+6. 使用 Http.post/Http.get 等方法发送请求，并指定泛型类型
+7. 检查响应状态码（code === EResponseCode.Succeed）
+8. 从 context 中解构需要的数据
+9. 统一的错误提示格式：`throw new Error(message || '服务器异常，请稍后再试~')`
+10. 返回处理后的数据，而不是直接返回原始响应
+
+# Mock数据架构规范
+
+1. 通用路径需要拆分：创建 routes/xxx.cjs 路由文件
+2. 控制器放在 controllers/xxx.controller.cjs
+3. 数据文件放在 controllers/data/xxx.json
+4. 路由文件使用 router.use('/通用路径', controller) 挂载
+5. 主路由文件使用 app.use('/api/模块名', require('./routes/xxx.cjs'))
+6. 控制器中移除通用路径前缀，只保留具体接口路径
+7. 支持分页查询：page、size 参数
+8. 支持搜索过滤：按关键字段模糊搜索
+9. 返回标准响应格式：{ code: 0, message: null, context: { total, data } }
+
+# JSON数据规范
+
+1. 只生成响应示例，不需要注释
+2. 仅仅包含 context 部分即可
+3. 数据格式符合接口定义
+4. 生成合理的测试数据（20条左右）
+5. 使用真实的业务场景数据
+
+# 枚举和映射规范
+
+1. 枚举使用 E 前缀，如 EStatus、ESettlementType
+2. 为每个枚举创建对应的标签映射对象
+3. 标签映射对象命名：xxxLabel，如 statusLabel、settlementTypeLabel
+4. 可选择性创建颜色映射：xxxColor、xxxBgColor
+5. 所有映射对象都要 export
+
+# 页面组件规范
+
+1. 使用 Vue 3 Composition API
+2. 导入类型时使用解构：import { IType1, IType2 } from '@/types/xxx'
+3. 使用 ref 定义响应式数据
+4. 使用 computed 定义计算属性
+5. 错误处理使用 try/catch 并显示 toast 提示
+6. 分页加载使用 loading 和 loadingMore 状态
+7. 搜索功能使用防抖处理

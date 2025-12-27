@@ -1,0 +1,102 @@
+[
+  {
+    "busId": "10001",
+    "busNo": "SJ202501230001",
+    "busType": "RECEIVE"
+  },
+  {
+    "busId": "10002",
+    "busNo": "SJ202501230002",
+    "busType": "RECEIVE"
+  },
+  {
+    "busId": "10003",
+    "busNo": "SJ202501230003",
+    "busType": "RECEIVE"
+  },
+  {
+    "busId": "10004",
+    "busNo": "SJ202501230004",
+    "busType": "RECEIVE"
+  },
+  {
+    "busId": "10005",
+    "busNo": "SJ202501230005",
+    "busType": "RECEIVE"
+  },
+  {
+    "busId": "10006",
+    "busNo": "TH202501230001",
+    "busType": "RETURN_RECEIVE"
+  },
+  {
+    "busId": "10007",
+    "busNo": "TH202501230002",
+    "busType": "RETURN_RECEIVE"
+  },
+  {
+    "busId": "10008",
+    "busNo": "TH202501230003",
+    "busType": "RETURN_RECEIVE"
+  },
+  {
+    "busId": "10009",
+    "busNo": "TH202501230004",
+    "busType": "RETURN_RECEIVE"
+  },
+  {
+    "busId": "10010",
+    "busNo": "TH202501230005",
+    "busType": "RETURN_RECEIVE"
+  },
+  {
+    "busId": "10011",
+    "busNo": "SJ202501230081",
+    "busType": "RECEIVE"
+  },
+  {
+    "busId": "10012",
+    "busNo": "SJ202501236002",
+    "busType": "RECEIVE"
+  },
+  {
+    "busId": "10013",
+    "busNo": "TH202801230003",
+    "busType": "RETURN_RECEIVE"
+  },
+  {
+    "busId": "10014",
+    "busNo": "TH202501290001",
+    "busType": "RETURN_RECEIVE"
+  },
+  {
+    "busId": "10015",
+    "busNo": "TH502501230002",
+    "busType": "RETURN_RECEIVE"
+  },
+  {
+    "busId": "10016",
+    "busNo": "TH202501230863",
+    "busType": "RETURN_RECEIVE"
+  },
+  {
+    "busId": "10017",
+    "busNo": "SJ202501280001",
+    "busType": "RECEIVE"
+  },
+  {
+    "busId": "10018",
+    "busNo": "SJ202501930002",
+    "busType": "RECEIVE"
+  },
+  {
+    "busId": "10019",
+    "busNo": "SJ201901230003",
+    "busType": "RECEIVE"
+  },
+  {
+    "busId": "10020",
+    "busNo": "TH201501230004",
+    "busType": "RETURN_RECEIVE"
+  }
+]

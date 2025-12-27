@@ -1,0 +1,196 @@
+.dynamic-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 32px;
+}
+
+.dynamic-select {
+  position: relative;
+}
+
+.dynamic-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 6px;
+  margin: 16px 0 32px;
+
+  .nut-form-item.error.line::before {
+    display: none;
+  }
+
+  .nut-cell {
+    padding: 24px 0;
+    margin: 0 24px;
+    width: calc(100% - 50px);
+    background-color: transparent;
+  }
+
+  .nut-cell-group__wrap {
+    box-shadow: none;
+    background-color: transparent;
+    border-radius: 0;
+  }
+}
+
+.dynamic-item {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #EEE;
+
+  &.no-required {
+    .nut-form-item__label.required {
+      &::before {
+        display: none !important;
+      }
+    }
+  }
+
+  .nut-uploader__preview-img .close {
+    right: 6px;
+    top: 6px;
+  }
+
+  .nut-checkbox-group,
+  .nut-radio-group {
+    display: flex;
+    flex-direction: column;
+
+    .nut-radio,
+    .nut-checkbox {
+      margin-bottom: 16px;
+    }
+  }
+
+  .nut-radio__label,
+  .nut-checkbox__label {
+    margin-left: 12px;
+  }
+
+  .nut-form-item__label {
+    width: auto;
+    padding-bottom: 12px;
+  }
+
+  .nut-textarea {
+    height: 160px;
+    background-color: #F7F8FA;
+    border-radius: 6px;
+    padding: 24px !important;
+    box-sizing: border-box;
+
+    textarea {
+      height: 100%;
+    }
+  }
+
+  .nut-cell__value {
+    color: #333;
+  }
+
+  input,
+  textarea {
+    color: #333;
+
+    ::placeholder {
+      color: #f00;
+    }
+  }
+
+  .dynamic-select:active {
+    opacity: .7;
+  }
+
+  .select-placeholder {
+    color: #999;
+  }
+
+  .select-value,
+  .select-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .nut-icon-rect-right {
+      font-size: 26px;
+    }
+
+    &>view {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      text {
+        color: #999;
+        font-size: 24px;
+      }
+    }
+  }
+
+  .nut-picker-roller-item-tarotile {
+    position: relative;
+
+    &.disabled {
+      color: #999;
+
+      &::after {
+        content: '已停用';
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        color: #999;
+      }
+    }
+  }
+
+  .disabled-msg {
+    color: #f98538;
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.dynamic-clear {
+  height: 63px;
+  display: flex;
+  align-items: center;
+
+  .nut-icon {
+    font-size: 28px;
+  }
+
+  .nut-icon-circle-close {
+    color: #333 !important;
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
+}
+
+.dynamic-select-disabled {
+  margin-right: 15px;
+  position: relative;
+}
+
+.tip-icon-slot {
+  font-size: 24px;
+  margin-left: 4px;
+  position: relative;
+  top: 12px;
+}
+
+.dynamic-image-upload {
+  .nut-uploader__preview {
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+}

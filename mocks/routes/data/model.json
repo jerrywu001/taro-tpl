@@ -1,0 +1,79 @@
+[
+  {
+    "id": "1234567803",
+    "name": "15210BC.OO.A002CA01",
+    "brandName": "爱彼",
+    "seriesName": "CODE 11.59",
+    "status": "ENABLED",
+    "creator": "张三",
+    "createTime": "2024-09-09 10:22:20",
+    "updateTime": "2024-09-09 10:22:20",
+    "updater": "张三"
+  },
+  {
+    "id": "1234567804",
+    "name": "15210BC.OO.A002CB02",
+    "brandName": "爱彼",
+    "seriesName": "CODE 11.59",
+    "status": "ENABLED",
+    "creator": "刘德华",
+    "createTime": "2024-09-09 10:22:20",
+    "updateTime": "2024-09-09 10:22:20",
+    "updater": "刘德华"
+  },
+  {
+    "id": "1234567805",
+    "name": "15210BC.OO.A002CC01",
+    "brandName": "爱彼",
+    "seriesName": "CODE 11.59",
+    "status": "ENABLED",
+    "creator": "彭于晏",
+    "createTime": "2024-09-09 10:22:20",
+    "updateTime": "2024-09-09 10:22:20",
+    "updater": "彭于晏"
+  },
+  {
+    "id": "1234567806",
+    "name": "15210BC.OO.A002CD01",
+    "seriesName": "CODE 11.59",
+    "brandName": "爱彼",
+    "status": "DISABLED",
+    "creator": "jojo",
+    "createTime": "2024-09-09 10:22:20",
+    "updateTime": "2024-09-09 10:22:20",
+    "updater": "jojo"
+  },
+  {
+    "id": "1234567807",
+    "name": "15210BC.OO.A002CE01",
+    "seriesName": "CODE 11.59",
+    "brandName": "爱彼",
+    "status": "ENABLED",
+    "creator": "丽珊",
+    "createTime": "2024-09-09 10:22:20",
+    "updateTime": "2024-09-09 10:22:20",
+    "updater": "丽珊"
+  },
+  {
+    "id": "1234567808",
+    "name": "15210BC.OO.A002CF01",
+    "seriesName": "CODE 11.59",
+    "brandName": "爱彼",
+    "status": "ENABLED",
+    "creator": "王五",
+    "createTime": "2024-09-09 10:22:20",
+    "updateTime": "2024-09-09 10:22:20",
+    "updater": "王五"
+  },
+  {
+    "id": "1234567809",
+    "name": "15210BC.OO.A002CH01",
+    "seriesName": "CODE 11.59",
+    "brandName": "爱彼",
+    "status": "DISABLED",
+    "creator": "李四",
+    "createTime": "2024-09-09 10:22:20",
+    "updateTime": "2024-09-09 10:22:20",
+    "updater": "李四"
+  }
+]

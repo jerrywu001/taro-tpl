@@ -1,0 +1,35 @@
+{
+  "miniprogramRoot": "dist/",
+  "projectname": "sales-applet",
+  "description": "二手合规通",
+  "appid": "wxae1eacbb0cb3dba8",
+  "setting": {
+    "urlCheck": false,
+    "es6": false,
+    "enhance": false,
+    "skylineRenderEnable": false,
+    "bigPackageSizeSupport": true,
+    "compileHotReLoad": false,
+    "postcss": false,
+    "minified": false,
+    "minifyWXSS": true,
+    "minifyWXML": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "compileType": "miniprogram",
+  "libVersion": "3.8.10",
+  "srcMiniprogramRoot": "dist/",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}

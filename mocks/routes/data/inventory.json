@@ -1,0 +1,205 @@
+{
+  "total": 20,
+  "data": [
+    {
+      "id": 1,
+      "uniqueCode": "INV202501001",
+      "picUrl": "https://picsum.photos/200/200?random=1",
+      "productName": "爱马仕 Birkin 30 鳄鱼皮手提包",
+      "categoryId": 101,
+      "categoryName": "手提包",
+      "brandName": "爱马仕",
+      "conditionName": "全新"
+    },
+    {
+      "id": 2,
+      "uniqueCode": "INV202501002",
+      "picUrl": "https://picsum.photos/200/200?random=2",
+      "productName": "香奈儿 Classic Flap 羊皮链条包",
+      "categoryId": 102,
+      "categoryName": "链条包",
+      "brandName": "香奈儿",
+      "conditionName": "99新"
+    },
+    {
+      "id": 3,
+      "uniqueCode": "INV202501003",
+      "picUrl": "https://picsum.photos/200/200?random=3",
+      "productName": "LV Neverfull MM 经典棋盘格购物袋",
+      "categoryId": 103,
+      "categoryName": "购物袋",
+      "brandName": "路易威登",
+      "conditionName": "95新"
+    },
+    {
+      "id": 4,
+      "uniqueCode": "INV202501004",
+      "picUrl": "https://picsum.photos/200/200?random=4",
+      "productName": "古驰 Dionysus 酒神包小号",
+      "categoryId": 104,
+      "categoryName": "斜挎包",
+      "brandName": "古驰",
+      "conditionName": "98新"
+    },
+    {
+      "id": 5,
+      "uniqueCode": "INV202501005",
+      "picUrl": "https://picsum.photos/200/200?random=5",
+      "productName": "普拉达 Galleria 杀手包中号",
+      "categoryId": 101,
+      "categoryName": "手提包",
+      "brandName": "普拉达",
+      "conditionName": "97新"
+    },
+    {
+      "id": 6,
+      "uniqueCode": "INV202501006",
+      "picUrl": "https://picsum.photos/200/200?random=6",
+      "productName": "迪奥 Lady Dior 戴妃包中号",
+      "categoryId": 101,
+      "categoryName": "手提包",
+      "brandName": "迪奥",
+      "conditionName": "全新"
+    },
+    {
+      "id": 7,
+      "uniqueCode": "INV202501007",
+      "picUrl": "https://picsum.photos/200/200?random=7",
+      "productName": "芬迪 Peekaboo 小号两用包",
+      "categoryId": 105,
+      "categoryName": "两用包",
+      "brandName": "芬迪",
+      "conditionName": "99新"
+    },
+    {
+      "id": 8,
+      "uniqueCode": "INV202501008",
+      "picUrl": "https://picsum.photos/200/200?random=8",
+      "productName": "巴黎世家 City 机车包经典款",
+      "categoryId": 104,
+      "categoryName": "斜挎包",
+      "brandName": "巴黎世家",
+      "conditionName": "96新"
+    },
+    {
+      "id": 9,
+      "uniqueCode": "INV202501009",
+      "picUrl": "https://picsum.photos/200/200?random=9",
+      "productName": "赛琳 Box 豆腐包中号",
+      "categoryId": 101,
+      "categoryName": "手提包",
+      "brandName": "赛琳",
+      "conditionName": "98新"
+    },
+    {
+      "id": 10,
+      "uniqueCode": "INV202501010",
+      "picUrl": "https://picsum.photos/200/200?random=10",
+      "productName": "BV 编织云朵包小号",
+      "categoryId": 106,
+      "categoryName": "云朵包",
+      "brandName": "葆蝶家",
+      "conditionName": "全新"
+    },
+    {
+      "id": 11,
+      "uniqueCode": "INV202501011",
+      "picUrl": "https://picsum.photos/200/200?random=11",
+      "productName": "爱马仕 Kelly 28 牛皮手提包",
+      "categoryId": 101,
+      "categoryName": "手提包",
+      "brandName": "爱马仕",
+      "conditionName": "99新"
+    },
+    {
+      "id": 12,
+      "uniqueCode": "INV202501012",
+      "picUrl": "https://picsum.photos/200/200?random=12",
+      "productName": "香奈儿 Boy Bag 小羊皮中号",
+      "categoryId": 102,
+      "categoryName": "链条包",
+      "brandName": "香奈儿",
+      "conditionName": "97新"
+    },
+    {
+      "id": 13,
+      "uniqueCode": "INV202501013",
+      "picUrl": "https://picsum.photos/200/200?random=13",
+      "productName": "LV Speedy 30 老花手提包",
+      "categoryId": 101,
+      "categoryName": "手提包",
+      "brandName": "路易威登",
+      "conditionName": "95新"
+    },
+    {
+      "id": 14,
+      "uniqueCode": "INV202501014",
+      "picUrl": "https://picsum.photos/200/200?random=14",
+      "productName": "古驰 Marmont 绗缝链条包",
+      "categoryId": 102,
+      "categoryName": "链条包",
+      "brandName": "古驰",
+      "conditionName": "98新"
+    },
+    {
+      "id": 15,
+      "uniqueCode": "INV202501015",
+      "picUrl": "https://picsum.photos/200/200?random=15",
+      "productName": "普拉达 Re-Edition 2005 尼龙包",
+      "categoryId": 104,
+      "categoryName": "斜挎包",
+      "brandName": "普拉达",
+      "conditionName": "全新"
+    },
+    {
+      "id": 16,
+      "uniqueCode": "INV202501016",
+      "picUrl": "https://picsum.photos/200/200?random=16",
+      "productName": "迪奥 Saddle 马鞍包小号",
+      "categoryId": 104,
+      "categoryName": "斜挎包",
+      "brandName": "迪奥",
+      "conditionName": "99新"
+    },
+    {
+      "id": 17,
+      "uniqueCode": "INV202501017",
+      "picUrl": "https://picsum.photos/200/200?random=17",
+      "productName": "芬迪 Baguette 法棍包经典款",
+      "categoryId": 104,
+      "categoryName": "斜挎包",
+      "brandName": "芬迪",
+      "conditionName": "96新"
+    },
+    {
+      "id": 18,
+      "uniqueCode": "INV202501018",
+      "picUrl": "https://picsum.photos/200/200?random=18",
+      "productName": "巴黎世家 Hourglass 沙漏包",
+      "categoryId": 101,
+      "categoryName": "手提包",
+      "brandName": "巴黎世家",
+      "conditionName": "全新"
+    },
+    {
+      "id": 19,
+      "uniqueCode": "INV202501019",
+      "picUrl": "https://picsum.photos/200/200?random=19",
+      "productName": "赛琳 Triomphe 凯旋门包",
+      "categoryId": 102,
+      "categoryName": "链条包",
+      "brandName": "赛琳",
+      "conditionName": "98新"
+    },
+    {
+      "id": 20,
+      "uniqueCode": "INV202501020",
+      "picUrl": "https://picsum.photos/200/200?random=20",
+      "productName": "BV Cassette 编织单肩包",
+      "categoryId": 104,
+      "categoryName": "斜挎包",
+      "brandName": "葆蝶家",
+      "conditionName": "97新"
+    }
+  ]
+}

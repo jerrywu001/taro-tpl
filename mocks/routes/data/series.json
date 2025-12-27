@@ -1,0 +1,93 @@
+[
+  {
+    "id": "1234567809",
+    "name": "CODE 11.59",
+    "alias": "CODE 11.59",
+    "description": "CODE11.59CODE11.59CODE11.59CODE11.59CODE11.59CODE11.59CODE11.59CODE11.59CODE11.59CODE11.59CODE11.59CODE11.59",
+    "logoUrl": "",
+    "brandName": "爱彼",
+    "status": "ENABLED",
+    "creator": "张三",
+    "createTime": "2024-09-09 10:22:20",
+    "updateTime": "2024-09-09 10:22:20",
+    "updater": "张三"
+  },
+  {
+    "id": "1234567808",
+    "name": "CODE 11.591",
+    "alias": "CODE 11.591",
+    "description": "CODE 11.59CODE 11.59CODE 11.59CODE 11.59CODE 11.59CODE 11.59",
+    "logoUrl": "",
+    "brandName": "爱彼",
+    "status": "ENABLED",
+    "creator": "刘德华",
+    "createTime": "2024-09-09 10:22:20",
+    "updateTime": "2024-09-09 10:22:20",
+    "updater": "刘德华"
+  },
+  {
+    "id": "1234567807",
+    "name": "CODE 11.592",
+    "alias": "CODE 11.592",
+    "description": "CODE 11.592",
+    "logoUrl": "",
+    "brandName": "爱彼",
+    "status": "ENABLED",
+    "creator": "彭于晏",
+    "createTime": "2024-09-09 10:22:20",
+    "updateTime": "2024-09-09 10:22:20",
+    "updater": "彭于晏"
+  },
+  {
+    "id": "1234567806",
+    "name": "CODE 12",
+    "alias": "CODE 12",
+    "description": "CODE 12",
+    "logoUrl": "",
+    "brandName": "爱彼",
+    "status": "DISABLED",
+    "creator": "jojo",
+    "createTime": "2024-09-09 10:22:20",
+    "updateTime": "2024-09-09 10:22:20",
+    "updater": "jojo"
+  },
+  {
+    "id": "1234567805",
+    "name": "CODE 22",
+    "alias": "CODE 22",
+    "description": "CODE 22",
+    "logoUrl": "",
+    "brandName": "爱彼",
+    "status": "ENABLED",
+    "creator": "丽珊",
+    "createTime": "2024-09-09 10:22:20",
+    "updateTime": "2024-09-09 10:22:20",
+    "updater": "丽珊"
+  },
+  {
+    "id": "1234567804",
+    "name": "CODE 122",
+    "alias": "CODE 122",
+    "description": "CODE 12",
+    "logoUrl": "",
+    "brandName": "爱彼",
+    "status": "ENABLED",
+    "creator": "王五",
+    "createTime": "2024-09-09 10:22:20",
+    "updateTime": "2024-09-09 10:22:20",
+    "updater": "王五"
+  },
+  {
+    "id": "1234567803",
+    "name": "CODE 59",
+    "alias": "CODE 59",
+    "description": "CODE 59",
+    "logoUrl": "",
+    "brandName": "爱彼",
+    "status": "DISABLED",
+    "creator": "李四",
+    "createTime": "2024-09-09 10:22:20",
+    "updateTime": "2024-09-09 10:22:20",
+    "updater": "李四"
+  }
+]

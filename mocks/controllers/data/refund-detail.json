@@ -1,0 +1,140 @@
+{
+  "id": 1001,
+  "refundNo": "TH202501070001",
+  "receiveNo": "RP202501001",
+  "receiveId": 1001,
+  "memberInfo": {
+    "id": 1001,
+    "memberName": "张女士",
+    "sex": 1,
+    "idNo": "110101199001011234",
+    "phone": "13800138001",
+    "email": "zhang@example.com",
+    "avatar": "https://picsum.photos/100/100?random=1001",
+    "bankName": "中国工商银行",
+    "bankCode": "102",
+    "bankBranch": "北京分行",
+    "bankBranchCode": "102100000",
+    "bankAccount": "6222021234567890123",
+    "authStatus": 1
+  },
+  "refundReason": "商品与描述不符",
+  "supplyCompany": "公司CCC",
+  "refundType": "LOGISTICS",
+  "categoryNum": 5,
+  "num": 8,
+  "settlementTotalPrice": 156000,
+  "refundTotalPrice": 156000,
+  "refundDetailList": [
+    {
+      "receiveSubId": 1001,
+      "refundSubId": 2001,
+      "categoryName": "商品",
+      "refundSettlementProcessStatus": 0,
+      "uniqueCode": "TH202501070001-001",
+      "receiveSubNo": "SJ202501070001-001",
+      "productName": "Gucci 酒神包",
+      "brandName": "Gucci",
+      "conditionName": "95新",
+      "appraisalStatus": 1,
+      "settlementAmount": 15800,
+      "refundAmount": 15000,
+      "fileList": [
+        {
+          "id": 1,
+          "busId": 1001,
+          "fileUrl": "https://picsum.photos/200/200?random=1",
+          "flag": "receive"
+        },
+        {
+          "id": 2,
+          "busId": 1001,
+          "fileUrl": "https://picsum.photos/200/200?random=2",
+          "flag": "receive"
+        }
+      ]
+    },
+    {
+      "receiveSubId": 1002,
+      "refundSubId": 2002,
+      "categoryName": "商品2",
+      "refundSettlementProcessStatus": 0,
+      "uniqueCode": "TH202501070001-002",
+      "receiveSubNo": "SJ202501070001-002",
+      "productName": "LV 经典款手提包",
+      "brandName": "Louis Vuitton",
+      "conditionName": "99新",
+      "appraisalStatus": 1,
+      "settlementAmount": 18200,
+      "refundAmount": 18000,
+      "fileList": [
+        {
+          "id": 3,
+          "busId": 1002,
+          "fileUrl": "https://picsum.photos/200/200?random=3",
+          "flag": "receive"
+        }
+      ]
+    },
+    {
+      "receiveSubId": 1003,
+      "refundSubId": 2003,
+      "categoryName": "商品3",
+      "uniqueCode": "TH202501070001-003",
+      "receiveSubNo": "SJ202501070001-003",
+      "productName": "Chanel 经典款链条包",
+      "brandName": "Chanel",
+      "conditionName": "90新",
+      "appraisalStatus": 1,
+      "settlementAmount": 28000,
+      "refundAmount": 22000,
+      "fileList": [
+        {
+          "id": 4,
+          "busId": 1003,
+          "fileUrl": "https://picsum.photos/200/200?random=4",
+          "flag": "receive"
+        },
+        {
+          "id": 5,
+          "busId": 1003,
+          "fileUrl": "https://picsum.photos/200/200?random=5",
+          "flag": "receive"
+        }
+      ]
+    },
+    {
+      "receiveSubId": 1004,
+      "refundSubId": 2004,
+      "categoryName": "商品4",
+      "uniqueCode": "TH202501070001-004",
+      "receiveSubNo": "SJ202501070001-004",
+      "productName": "Hermès Kelly 25",
+      "brandName": "Hermès",
+      "conditionName": "全新",
+      "appraisalStatus": 1,
+      "settlementAmount": 59000,
+      "refundAmount": 58000,
+      "fileList": [
+        {
+          "id": 7,
+          "busId": 1004,
+          "fileUrl": "https://picsum.photos/200/200?random=7",
+          "flag": "receive"
+        }
+      ]
+    }
+  ],
+  "status": 2,
+  "optApproveDetailDTO": {
+    "creator": "张三",
+    "createTime": "2025-01-07 10:30:00",
+    "approveName": "李四",
+    "updateTime": "2025-01-07 14:20:00",
+    "status": 1,
+    "resultDesc": "审核通过，商品符合退货条件"
+  },
+  "receivePayment": 2,
+  "showSettlementButton": true,
+  "showPaymentButton": true
+}

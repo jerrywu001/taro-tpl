@@ -1,0 +1,47 @@
+[
+  {
+    "no": "INV202510001",
+    "billNo": "R202509001",
+    "billType": "OFFLINE_RECEIVE",
+    "invoiceType": 0,
+    "productName": "LV 经典款手提包",
+    "invoiceAmount": 12850.00,
+    "invoiceStatus": 4
+  },
+  {
+    "no": "INV202510002",
+    "billNo": "R202509001",
+    "billType": "OFFLINE_RECEIVE",
+    "invoiceType": 1,
+    "productName": "香奈儿经典款手袋",
+    "invoiceAmount": 25600.00,
+    "invoiceStatus": 3
+  },
+  {
+    "no": "INV202510003",
+    "billNo": "R202509002",
+    "billType": "OFFLINE_RECEIVE",
+    "invoiceType": 0,
+    "productName": "爱马仕铂金包",
+    "invoiceAmount": 58000.00,
+    "invoiceStatus": 1
+  },
+  {
+    "no": "INV202510004",
+    "billNo": "R202509003",
+    "billType": "OFFLINE_RECEIVE",
+    "invoiceType": 1,
+    "productName": "古驰经典款单肩包",
+    "invoiceAmount": 9800.00,
+    "invoiceStatus": 2
+  },
+  {
+    "no": "INV202510005",
+    "billNo": "R202509004",
+    "billType": "OFFLINE_RECEIVE",
+    "invoiceType": 0,
+    "productName": "迪奥经典款手提包",
+    "invoiceAmount": 15200.00,
+    "invoiceStatus": 0
+  }]
+

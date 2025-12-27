@@ -1,0 +1,53 @@
+{
+  "refundNo": "RTN202509001",
+  "paymentStatus": 0,
+  "signStatus": 1,
+  "receiveNo": "R202509001",
+  "memberName": "张女士",
+  "refundReason": "商品与描述不符",
+  "refundMethod": "物流",
+  "recipientName": "张女士",
+  "phone": "13800138000",
+  "address": "江苏省南京市江宁区双龙大道万科云都荟天地B1栋1701",
+  "categoryCount": 2,
+  "productCount": 2,
+  "totalSettlementAmount": 1313532.00,
+  "totalRefundAmount": 1313532.00,
+  "productList": [
+    {
+      "fileList": [
+        {
+          "id": 1,
+          "busId": 2001,
+          "fileUrl": "https://storage.360buyimg.com/jdc-article/NutUItaro34.jpg"
+        }
+      ],
+      "productName": "Chanel Classic Flap",
+      "productCondition": "真 95新",
+      "subOrderNo": "TPL202509001",
+      "settlementAmount": 12800.00,
+      "refundAmount": 11500.00
+    },
+    {
+      "fileList": [
+        {
+          "id": 2,
+          "busId": 2002,
+          "fileUrl": "https://storage.360buyimg.com/jdc-article/NutUItaro2.jpg"
+        }
+      ],
+      "productName": "Chanel Classic Flap",
+      "productCondition": "真 95新",
+      "subOrderNo": "TPL202509002",
+      "settlementAmount": 1300732.00,
+      "refundAmount": 1302032.00
+    }
+  ],
+  "creator": "张女士",
+  "createTime": "2025-09-01 14:20",
+  "auditor": "李主管",
+  "auditTime": "2025-09-01 14:20",
+  "auditStatus": 1
+}
+
+

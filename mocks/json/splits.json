@@ -1,0 +1,22 @@
+[
+  {
+    "payCodeNo": "PC20241230000001",
+    "payCodeName": "蜜雪冰城二店",
+    "storeName": "蜜雪冰城证大喜马拉雅店",
+    "staffName": null,
+    "companyName": "宁伙伴（南京）科技服务有限公司",
+    "orderAmount": 3090001.00,
+    "memo": "{\"phone\":\"\",\"name\":\"\",\"memo\":\"\"}",
+    "qrCodeUrl": "https://qr.yeepay.com/oc/qSphDSDEC"
+  },
+  {
+    "payCodeNo": "PC20241230000001",
+    "payCodeName": "蜜雪冰城二店",
+    "storeName": "蜜雪冰城证大喜马拉雅店",
+    "staffName": null,
+    "companyName": "宁伙伴（南京）科技服务有限公司",
+    "orderAmount": 1909999.00,
+    "memo": "{\"phone\":\"\",\"name\":\"\",\"memo\":\"\"}",
+    "qrCodeUrl": "https://qr.yeepay.com/oc/BRCkjF0Fn"
+  }
+]
