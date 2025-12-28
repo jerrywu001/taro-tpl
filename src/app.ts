@@ -3,7 +3,7 @@ import { createApp } from 'vue';
 import { ConfigProvider, Form, FormItem } from '@nutui/nutui-taro';
 import './layout/custom_theme.scss';
 import './layout/layout.scss';
-// import './layout/h5.scss';
+import './layout/h5.scss';
 
 // https://docs.taro.zone/docs
 
