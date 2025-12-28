@@ -18,17 +18,14 @@ page {
       opacity: .7;
     }
   }
+}
 
-  .safe-content-footer,
-  .sys-footer-actions {
-    .nut-button {
-      border-radius: 8px;
-    }
+.nut-button {
+  border-radius: 8px !important;
+}
 
-    .nut-button--warning {
-      background: var(--nut-secondary-color) !important;
-    }
-  }
+.nut-button--warning {
+  background: var(--nut-secondary-color) !important;
 }
 
 .footer-bar {

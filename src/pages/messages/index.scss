@@ -1,0 +1,224 @@
+.messages-wrapper {
+  .messages-nav {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    &__title {
+      font-size: 32px;
+      font-weight: 600;
+      color: #333;
+      line-height: 1;
+    }
+
+    &__badge {
+      min-width: 36px;
+      height: 36px;
+      padding: 0 10px;
+      border-radius: 18px;
+      background: #fa5151;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+
+      text {
+        font-size: 22px;
+        color: #fff;
+        line-height: 1;
+      }
+    }
+  }
+
+  .messages-page {
+    padding: 20px 24px 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .messages-section {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    &__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__title-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    &__title {
+      font-size: 30px;
+      font-weight: 600;
+      color: #333;
+      line-height: 1.2;
+    }
+
+    &__tag {
+      padding: 6px 12px;
+      border-radius: 18px;
+      background: rgba(250, 81, 81, 0.12);
+      box-sizing: border-box;
+
+      text {
+        font-size: 22px;
+        color: #fa5151;
+        line-height: 1;
+      }
+    }
+  }
+
+  .messages-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 18px 18px 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    &__head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    &__title {
+      font-size: 28px;
+      font-weight: 600;
+      color: #333;
+      line-height: 1.2;
+      flex: 1;
+      min-width: 0;
+    }
+
+    &__time {
+      font-size: 24px;
+      color: #999;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+
+    &__content {
+      font-size: 26px;
+      color: #666;
+      line-height: 1.6;
+    }
+  }
+
+  .messages-task {
+    background: #fff;
+    border-radius: 16px;
+    padding: 18px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    &__label {
+      align-self: flex-start;
+      padding: 6px 12px;
+      border-radius: 12px;
+      background: rgba(255, 122, 69, 0.12);
+
+      text {
+        font-size: 22px;
+        color: rgba(255, 122, 69);
+        line-height: 1;
+      }
+    }
+
+    &__head {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    &__title {
+      font-size: 28px;
+      font-weight: 600;
+      color: #333;
+      line-height: 1.2;
+    }
+
+    &__meta {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    &__meta-strong {
+      font-size: 26px;
+      color: #333;
+      line-height: 1.2;
+    }
+
+    &__meta-muted {
+      font-size: 26px;
+      color: #666;
+      line-height: 1.2;
+    }
+
+    &__dot {
+      font-size: 24px;
+      color: #999;
+      line-height: 1;
+    }
+
+    &__price {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+    }
+
+    &__currency {
+      font-size: 26px;
+      color: rgba(255, 122, 69);
+      line-height: 1;
+      font-weight: 600;
+    }
+
+    &__amount {
+      font-size: 44px;
+      color: rgba(255, 122, 69);
+      line-height: 1;
+      font-weight: 700;
+    }
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    &__info-text {
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+      color: #666;
+      line-height: 1.4;
+      gap: 6px;
+    }
+
+    &__actions {
+      display: flex;
+      gap: 12px;
+      padding-top: 8px;
+
+      .nut-button {
+        flex: 1;
+        font-size: 24px;
+      }
+    }
+  }
+}
